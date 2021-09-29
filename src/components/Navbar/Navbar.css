@@ -1,0 +1,125 @@
+.navbar-container{
+    height: 60px;
+    position: fixed;
+    z-index: 100;
+    background-color: rgba(0,0,0,.85);
+    width: 100vw;
+    display: flex;
+   align-items: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+}
+.hamburger-icon{
+    display: none;
+}
+.navbar-logo{
+    height: 40px;
+    width: 50px;
+}
+
+.navbar-links-container{
+    display: flex;
+    align-items: center;
+}
+.navbar-links{
+    color: white;
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+.navbar-links-mobile{
+    display: none;
+}
+.navbar-controls{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.navbar-icon{
+    /* stroke: yellow; */
+    fill:rgb(243, 193, 93);
+    /* outline: yellow; */
+    display: inline-block;
+    height:28px;
+    width: 28px;
+    cursor: pointer;
+}
+
+.sign-in-button{
+    background-color: transparent;
+    border: 2px solid rgb(243, 193, 93);
+    color: white;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    font-weight: thin;
+    font-size: 0.95rem;
+    border-radius: 20px;
+    transition: all .3s ease-in-out;
+}
+
+.sign-in-button:hover{
+    background: #f3c15d;
+    color: #343a40;
+}
+
+@media only screen and (max-width: 900px) {
+    .navbar-links{
+        display: none;
+    }
+
+    .navbar-links-mobile{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding: 0px 120px 20px;
+        position: absolute;
+        top: -300px;
+        width: 100%;
+        left: 0;
+        z-index: 10 !important;
+        background-color: inherit;
+        color: white;
+        list-style: none;
+        opacity: 0;
+        transition: top .8s ease-in-out, opacity .2s ease;
+    }
+  
+    .navbar-links-mobile.active{
+        opacity: 1;
+        top: 44px;
+        transition: top .3s ease-in-out, opacity .3s ease-in-out .2s;
+
+    }
+
+    .navbar-links-mobile li{
+        font-size: 0.95rem;
+        font-weight: 600;
+    }
+
+    .hamburger-icon{
+        display: inline-block;
+        margin-right: 20vh;
+        cursor: pointer;
+    }
+    .hamburger-icon svg{
+        fill: rgb(250,197,128);
+        width: 32px;
+        height: 32px;
+    }
+
+}
+
+@media only screen and (max-width: 600px){
+    .hamburger-icon{
+        margin-right: 15px;
+    }
+    .navbar-links-mobile{
+        padding-left: 30px;
+    }
+}
