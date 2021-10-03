@@ -1,3 +1,60 @@
 .graphics-portfolio-section{
     padding-top: 100px;
 }
+.graphics-phone-option{
+    display: none;
+}
+.graphics-categories{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+    justify-content: center;
+}
+.graphics-phone-item{
+    display: block;
+}
+
+@media only screen and (max-width : 600px){
+    .graphics-categories{
+        display: block;
+        min-height: 650px;
+    }
+    .graphics-phone-option{
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+        color: #555;
+    }
+    .graphics-phone-option div{
+        display: flex;
+        gap: 5px;
+        animation : marquee 19s linear infinite;
+        margin: 20px 2px;
+    }
+    .graphics-phone-option span{
+        white-space: nowrap;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .graphics-phone-option span.active{
+        font-weight: bold;
+        color: #ff5e13;
+    }
+    
+    .graphics-phone-item{
+        display: none;
+    }
+    .graphics-phone-item.active{
+        display: block;
+    }
+}
+
+@keyframes marquee {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(-100%, 0);
+    }
+  }

@@ -7,9 +7,9 @@ import data from './Header.json'
 
 import HeaderElement from "./HeaderElement";
 
-export default function(){
+export default function({refProp}){
     return( 
-        <section id="home" style={{backgroundImage : `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("assets/img/header/hero-bg.webp")`}} className="header-section">
+        <section ref={refProp} id="home" style={{backgroundImage : `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("assets/img/header/hero-bg.webp")`}} className="header-section">
             <div className="fixed-container-size header-container">
                 <div className="header-title-container">
                     <h1 className="header-title-main">{data.title}</h1>

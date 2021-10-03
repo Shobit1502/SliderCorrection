@@ -1,0 +1,59 @@
+
+  .digital-art-portfolio {
+    width: 28vw;
+    min-width: 350px;
+    border-radius: 10px;
+    margin: 0px auto;
+    padding: 30px 0px;
+    box-shadow: 0 54px 55px rgb(0 0 0 / 25%), 0 -12px 30px rgb(0 0 0 / 12%),
+      0 4px 6px rgb(0 0 0 / 12%), 0 12px 13px rgb(0 0 0 / 17%),
+      0 -3px 5px rgb(0 0 0 / 9%);
+    background-image: linear-gradient(
+      180deg,
+      #f4ecd8,
+      #f2d9a8,
+      #f1c578,
+      #f2af49,
+      #f4960c
+    );
+  }
+  
+  .digital-art-portfolio h1 {
+    margin: 0px auto;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  .digital-arts {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 6px 8px;
+    padding: 0px 20px;
+  }
+  .digital-art {
+    width: 100%;
+    padding-top: 100%;
+    border: 2px solid goldenrod;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 175%;
+    box-shadow: 0 54px 55px rgb(0 0 0 / 25%), 0 -12px 30px rgb(0 0 0 / 12%),
+      0 4px 6px rgb(0 0 0 / 12%), 0 12px 13px rgb(0 0 0 / 17%),
+      0 -3px 5px rgb(0 0 0 / 9%);
+  }
+  .digital-art:hover {
+    /* transform: scale(1.05); */
+    background-size: 275%;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .digital-art-portfolio {
+      width: 95%;
+      min-width: auto;
+    }
+  }
+  
