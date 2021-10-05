@@ -3,12 +3,14 @@ import { useLocation } from "react-router-dom";
 
 import Header from "components/Home/Header/Header";
 import GraphicsPortfolio from "components/Home/GraphicsPortfolio/GraphicsPortfolio";
+import Contact from "components/Home/Contact/Contact";
 
 export default function Home(){
 
     // ref to each section, for auto scrolling of hash links eg- /#header
     const headerRef = useRef(null); 
     const graphicsRef = useRef(null);
+    const contactRef = useRef(null);
 
     // to get queries for retaining exact state eg- /?id=1#sec1 ==> id one of sec1 state
     const {search, hash} = useLocation();
@@ -23,8 +25,11 @@ export default function Home(){
             case "#graphicsportfolio":
                 graphicsRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
               break;
+            case "#contact":
+                contactRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
+                break;
             default:
-              console.log("none");
+              console.log("default section");
               break;
           }
 
@@ -33,5 +38,20 @@ export default function Home(){
     return( <>
     <Header refProp = {headerRef} />
     <GraphicsPortfolio refProp={graphicsRef} />
+    <Contact refProp={contactRef} />
     </>)
 } 
+
+
+/* 
+
+Why am I using switch case with ref to each section?
+=> This is for auto scrolling.
+  Consider a scenerio where I shared a link like "https://koyo.com/#portfolio"
+  Have you noticed #portfolio ?
+  I want my web page to go to that particular section with id = 'portfolio'
+  So, since I have reference to all the sections. 
+  Now I can get the hash part with useLocation()
+  and achieve the required effect by scrolling to the required section reference.
+  Please make sure to do the same for other upcoming sections.
+*/

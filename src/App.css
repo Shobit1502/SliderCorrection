@@ -4,11 +4,13 @@ div,a{
   -webkit-tap-highlight-color: transparent !important;
 }
 
+/* global css to maintain the section's container size */
 .fixed-container-size{
     width: 76vw;
     margin-left: auto;
     margin-right: auto;
 }
+/* Title section eg-> Digital Art Portfolio------- (something like this) */
 .section-title{
     font-size: 14px;
     font-weight: 500;

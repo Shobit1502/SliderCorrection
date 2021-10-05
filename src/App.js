@@ -4,6 +4,7 @@ import './App.css';
 
 import Navbar from 'components/Navbar/Navbar';
 import Home from 'components/Home/Home';
+import Footer from 'components/Footer/Footer';
 
 function App() {
   return (
@@ -12,30 +13,7 @@ function App() {
       <Switch>
         <Route path="/" component={Home} />
       </Switch>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
+      <Footer/>
     </div>
   );
 }
