@@ -1,0 +1,51 @@
+.our-websites-section {
+  padding-top: 100px;
+}
+
+#website-filters {
+  padding: 0;
+  margin: 20px auto 20px auto;
+  list-style: none;
+  text-align: center;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+#website-filters::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+#website-filters {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+#website-filters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 15px 10px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #444444;
+  margin-bottom: 5px;
+  transition: all 0.6s ease-in-out;
+  border-radius: 3px;
+}
+
+#website-filters li:hover {
+  color: rgba(255, 94, 19);
+  background-color: transparent;
+}
+
+#website-filters li.filter-active {
+  color: #151515;
+  background: #ffc451;
+}
+
+#website-filters li:last-child {
+  margin-right: 0;
+}
