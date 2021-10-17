@@ -72,7 +72,6 @@ function Job(props) {
               className=" clickhere"
               onClick={() => {
                 openModal4(props.index);
-                console.log(props.index);
               }}
             >
               here
@@ -220,7 +219,7 @@ function Jobs(props) {
 
   let portfolioref = useRef();
   async function addButtonscroll() {
-    //used to scroll blog conatiner without button
+    //used to scroll job conatiner without button
     let l = document.getElementsByClassName("vl");
 
     Array.prototype.filter.call(l, function (el) {
