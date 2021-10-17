@@ -28,30 +28,31 @@ function Job(props) {
   }
   return (
     <div
-      className={`col-lg-6  col-sm-12 col-xl-6 padding-0  job-type ${props.filter}`}
+      style={{ position: "relative" }}
+      className={`col-lg-6  col-sm-12 col-xl-6 p-0  job-type ${props.filter}`}
     >
+      <div className="btnholder1">
+        <button
+          onClick={() => {
+            let el = document.getElementById(`vlcon${props.index}`);
+            el.scrollTop += 100;
+          }}
+        >
+          <GoChevronDown size={18} className="expicons" />
+        </button>
+        <button
+          onClick={() => {
+            let el = document.getElementById(`vlcon${props.index}`);
+            el.scrollTop -= 100;
+          }}
+        >
+          <GoChevronUp className="expicons" />
+        </button>
+      </div>
       <div
         id={`vlcon${props.index}`}
         className={`vl ${props.isService ? "brad" : ""}`}
       >
-        <div className="btnholder1">
-          <button
-            onClick={() => {
-              let el = document.getElementById(`vlcon${props.index}`);
-              el.scrollTop += 100;
-            }}
-          >
-            <GoChevronDown size={15} className="expicons" />
-          </button>
-          <button
-            onClick={() => {
-              let el = document.getElementById(`vlcon${props.index}`);
-              el.scrollTop -= 100;
-            }}
-          >
-            <GoChevronUp className="expicons" />
-          </button>
-        </div>
         <div className="topic">
           {props.topic}
           <br />
@@ -110,9 +111,9 @@ function Job(props) {
             className="ModalVid"
           />
           <div
-            id="carouselExampleIndicators"
+            id="carouselExampleControls"
             className="carousel slide"
-            data-ride="false"
+            data-bs-ride="carousel"
           >
             <div className="carousel-inner">
               {props.videos.map((e, index) => (
@@ -141,30 +142,30 @@ function Job(props) {
                 </div>
               ))}
             </div>
-            <a
-              className="carousel-control-prev"
-              href="#carouselExampleIndicators"
-              role="button"
-              data-slide="prev"
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
             >
               <span
                 className="carousel-control-prev-icon"
                 aria-hidden="true"
               ></span>
-              <span className="sr-only">Previous</span>
-            </a>
-            <a
-              className="carousel-control-next"
-              href="#carouselExampleIndicators"
-              role="button"
-              data-slide="next"
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
             >
               <span
-                className="carousel-control-next-icon"
+                class="carousel-control-next-icon"
                 aria-hidden="true"
               ></span>
-              <span className="sr-only">Next</span>
-            </a>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
 
           <br />
@@ -290,8 +291,8 @@ function Jobs(props) {
             </div>
           </div>
 
-          <div class=" row filters filters1 categoryone mx-2">
-            <div class="ui-group" id="cat__one">
+          <div class="row filters filters1 categoryone mx-2">
+            <div style={{ width: "unset" }} class="ui-group" id="cat__one">
               <div
                 class="button-group"
                 id="categoryone"
@@ -316,8 +317,9 @@ function Jobs(props) {
             </div>
           </div>
 
-          <div class=" row filters d-flex justify-content-center filters2 categorytwo mx-2 mb-2">
+          <div class="row filters d-flex justify-content-center filters2 categorytwo mx-2 mb-2">
             <div
+              style={{ width: "unset" }}
               class="button-group "
               id="categorytwo"
               data-filter-group="size"
