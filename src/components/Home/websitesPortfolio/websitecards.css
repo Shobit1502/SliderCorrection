@@ -2,12 +2,14 @@
   box-sizing: border-box;
   border: 1px solid black;
   height: 225px;
-  width: 440px;
+  width: 33vw;
+  max-width: 600px;
+  min-width: 400px;
   overflow: hidden;
   background-color: transparent;
   border-radius: 8px;
   position: relative;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .btn-demo {
@@ -51,8 +53,8 @@
   position: absolute;
   bottom: 20px;
   right: 10px;
-  height: 40px;
-  width: 40px;
+  height: 24px;
+  width: 24px;
   border-radius: 50%;
   padding: 0;
   background-color: #be8d03;
@@ -77,8 +79,8 @@
 }
 
 .img-fluid {
-  height: 28px;
-  width: 28px;
+  height: 16px;
+  width: 16px;
 }
 
 .flipcard-back {

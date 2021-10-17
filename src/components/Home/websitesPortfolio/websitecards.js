@@ -16,6 +16,8 @@ function Websitecards(props) {
         className="flipcard-front flipcard"
         style={{
           backgroundImage: `url('${props.img}')`,
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "100%",
         }}
       >
         <a

@@ -128,6 +128,7 @@ function WebsitesPortfolio({ refProp }) {
                     about={card.aboutWebsite}
                     tech={card.technologies}
                     host={card.hosting}
+                    flip={false}
                   />
                 ))}
               </div>
