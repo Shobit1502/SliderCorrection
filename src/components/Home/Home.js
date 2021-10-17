@@ -4,6 +4,7 @@ import { useLocation } from "react-router-dom";
 import Header from "components/Home/Header/Header";
 import WebsitesPortfolio from "components/Home/websitesPortfolio/websitesPortfolio";
 import GraphicsPortfolio from "components/Home/GraphicsPortfolio/GraphicsPortfolio";
+import Section from "./Blog/Jobs";
 import Contact from "components/Home/Contact/Contact";
 
 export default function Home() {
@@ -54,6 +55,7 @@ export default function Home() {
       <Header refProp={headerRef} />
       <WebsitesPortfolio refProp={websitesRef} />
       <GraphicsPortfolio refProp={graphicsRef} />
+      <Section />
       <Contact refProp={contactRef} />
     </>
   );
