@@ -1,0 +1,131 @@
+.flipcard {
+  box-sizing: border-box;
+  border: 1px solid black;
+  height: 225px;
+  width: 33vw;
+  max-width: 600px;
+  min-width: 400px;
+  overflow: hidden;
+  background-color: transparent;
+  border-radius: 8px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.btn-demo {
+  padding: 0;
+  position: absolute;
+  top: 25px;
+  right: 10px;
+}
+
+.btn-demo button {
+  height: 30px;
+  width: 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(146, 135, 105, 0.4);
+  font-size: 16px;
+  padding: 0px;
+  font-weight: 500;
+  color: white;
+  animation: color-change 2s infinite;
+}
+
+@keyframes color-change {
+  0% {
+    color: white;
+  }
+  50% {
+    color: black;
+  }
+  100% {
+    color: white;
+  }
+}
+
+.btn-demo button:hover {
+  cursor: pointer;
+  color: rgba(170, 170, 170);
+}
+
+.btn-flip {
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  padding: 0;
+  background-color: #be8d03;
+  border: none;
+  transition: transform 0.2s;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.btn-flip div {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-flip div:hover {
+  cursor: pointer;
+  transform: scale(1.3);
+}
+
+.img-fluid {
+  height: 16px;
+  width: 16px;
+}
+
+.flipcard-back {
+  padding: 20px 25px;
+}
+
+.website-details {
+  height: 100%;
+  width: 98%;
+  padding-right: 2%;
+  overflow: auto;
+  text-align: justify;
+  font-size: 14px;
+  font-weight: 200;
+  scroll-behavior: smooth;
+  font-family: "Rubik", sans-serif;
+  color: black;
+  background-color: transparent;
+  line-height: 1.8;
+}
+
+.website-details::-webkit-scrollbar {
+  width: 7px;
+  height: 50px;
+  background: linear-gradient(#feeab3, transparent);
+  border-radius: 8px;
+}
+
+.website-details::-webkit-scrollbar-thumb {
+  background: linear-gradient(#e3a702, transparent);
+  border-radius: 8px;
+  border: 1px solid #e3a702;
+}
+.contact-link {
+  margin: 0;
+  padding: 0;
+  margin-right: 3px;
+}
+.contact-link:hover {
+  cursor: pointer;
+}
+
+.contactpic {
+  margin: 0;
+  padding: 0;
+  height: 18px;
+  width: 18px;
+}
