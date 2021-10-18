@@ -75,7 +75,6 @@
   margin-right: 50px;
   border-radius: 8%;
   border: transparent;
-  margin-bottom: 5px;
   background-color: transparent;
 }
 .categoryone .button.is-checked {
@@ -215,7 +214,6 @@
 }
 
 .btnholder1 button {
-  /* height: 1.4rem; */
   margin: 0.5rem 0.5rem;
   margin-left: unset;
   background: hsla(0, 0%, 50%, 0.267);
@@ -233,13 +231,12 @@
 
 #cat__one,
 #categorytwo {
-  overflow-x: auto;
   white-space: nowrap;
 }
 
-#cat__one::-webkit-scrollbar,
+#categoryone::-webkit-scrollbar,
 #categorytwo::-webkit-scrollbar {
-  height: 0.2rem;
+  height: 0rem;
 }
 
 .vl .MuiSvgIcon-root {
@@ -555,7 +552,6 @@ body {
     color: #444444;
     border-radius: 3px;
     border: 0px;
-    margin-bottom: 5px;
     margin-left: 0px;
     margin-right: 0px;
   }
@@ -953,7 +949,6 @@ body {
     border: transparent;
     margin-right: 0px;
     border-radius: 8%;
-    margin-bottom: 5px;
   }
   .categoryone .button.is-checked {
     background-color: #ffc451;
