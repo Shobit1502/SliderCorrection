@@ -24,6 +24,7 @@ function Job(props) {
   function closeModal4() {
     setIsOpen4(null);
   }
+
   return (
     <div
       style={{ position: "relative" }}
@@ -85,7 +86,11 @@ function Job(props) {
 
         <div className="centerbuttonform">
           <div className="col-md-12 text-center">
-            <button type="button" className="btn btn-warning btn-sm">
+            <button
+              type="button"
+              onClick={() => props.openForm(props.id)}
+              className="btn btn-warning btn-sm"
+            >
               Apply
             </button>
           </div>

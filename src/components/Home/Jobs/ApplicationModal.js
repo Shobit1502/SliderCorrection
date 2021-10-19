@@ -1,61 +1,8 @@
-import React from "react";
-import Jobdata from "./JobsData";
-import Job from "./Job";
+import React, { useState } from "react";
 import Modal from "react-modal";
-import "./Jobs.css";
-import { useState, useRef, useEffect } from "react";
-import { AiFillCaretLeft } from "react-icons/ai";
-import { AiFillCaretRight } from "react-icons/ai";
-// import ApplicationModal from "./ApplicationModal";
 import InputSkills from "./InputSkills";
 
-function Jobs(props) {
-  // Add all the filters for level 1 and level 2 here
-  let filter1 = ["Permanent", "Internship"];
-  let filter2 = ["Web Design", "Graphics", "Robotics", "AI & ML"];
-  const [Worktype, setWorktype] = useState(filter1[0]);
-  const [Workcategory, setWorkcategory] = useState(filter2[0]);
-  // here
-  // used to show arrow in filter1 container to scroll
-  const [f1arrowvisible, setf1arrowvisible] = useState(false);
-  const [f2arrowvisible, setf2arrowvisible] = useState(false);
-
-  let portfolioref = useRef();
-  let filterscroller1 = useRef();
-  let filterscroller2 = useRef();
-  async function addArrowScroll() {
-    if (
-      filterscroller1.current != undefined &&
-      filterscroller2.current != undefined
-    ) {
-      if (
-        filterscroller1.current.scrollWidth >
-        filterscroller1.current.offsetWidth
-      ) {
-        setf1arrowvisible(true);
-      } else setf1arrowvisible(false);
-      if (
-        filterscroller2.current.scrollWidth >
-        filterscroller2.current.offsetWidth
-      ) {
-        setf2arrowvisible(true);
-      } else setf2arrowvisible(false);
-    }
-  }
-  async function addButtonscroll() {
-    //used to scroll job conatiner without button
-    let l = document.getElementsByClassName("vl");
-
-    Array.prototype.filter.call(l, function (el) {
-      if (el.scrollHeight > el.offsetHeight) {
-        el.firstChild.classList.remove("d-none");
-      } else {
-        el.firstChild.classList.add("d-none");
-      }
-    });
-  }
-
-  // Modal logics
+function ApplicationModal() {
   const [modalIsOpen2, setIsOpen2] = useState(false);
   const [err, setErr] = useState("");
   const [errEmail, setErrEmail] = useState("");
@@ -261,54 +208,6 @@ function Jobs(props) {
 
     setIsOpen3(false);
   }
-
-  window.addEventListener("resize", () => {
-    addButtonscroll();
-    addArrowScroll();
-  });
-  useEffect(() => {
-    addArrowScroll();
-  }, []);
-  useEffect(() => {
-    addButtonscroll();
-  }, [filter2, filter1]);
-
-  var nojobs = (
-    <div className="d-flex flex-column my-3 noblog__txt align-items-center">
-      <img className="w-50" src="assets/img/misc/commingSoon.png" alt="" />
-      <h1 style={{ fontSize: "1.2rem" }} className="text-center my-3">
-        We currently do not have any openings in this area. Please check our
-        other offerings or check back in a few weeks.
-      </h1>
-    </div>
-  );
-  let jobopenings = Jobdata.map((job, index) => {
-    if (
-      job.jobFilterLevel1 == Worktype &&
-      job.jobFilterLevel2 == Workcategory
-    ) {
-      return (
-        <Job
-          openForm={openForm}
-          id={job.appID}
-          index={index}
-          skills={job.skills}
-          duration={job.duration}
-          topic={job.topic}
-          videos={job.videos}
-          keywords={job.keywords}
-          appID={job.appID}
-          date={job.date}
-          projectdescription={job.projectdescription}
-          projectbackground={job.projectbackground}
-          projectbrief={job.projectbrief}
-          projecttitle={job.projecttitle}
-          isService={props.isService}
-          pdf={job.pdf}
-        />
-      );
-    }
-  });
   return (
     <>
       <Modal
@@ -507,7 +406,6 @@ function Jobs(props) {
           Submit
         </button>
       </Modal>
-
       <Modal
         isOpen={modalIsOpen2}
         onAfterOpen={afterOpenModal2}
@@ -778,136 +676,8 @@ function Jobs(props) {
         <br />
         <br />
       </Modal>
-      <section
-        className="portfolio"
-        id="Jobarea"
-        style={{ padding: "40px 0 100px 0px" }}
-      >
-        <div className="application-container " data-aos="fade-up">
-          <div className="section-title__2">
-            <h2>Jobs/Internships</h2>
-            <p>Join Our Team</p>
-            <div className="hiringtext">
-              KSS is hiring! We are interested in passionate candidates who can
-              bring their skills, creativity or experience and grow in a
-              problem-solving environment.See the details below.
-            </div>
-          </div>
-          <div className="d-flex flex-row justify-content-center align-items-center">
-            {f1arrowvisible && (
-              <AiFillCaretLeft
-                onClick={() => (filterscroller1.current.scrollLeft -= 100)}
-                size={20}
-                style={{ marginLeft: "auto" }}
-              />
-            )}
-
-            <div
-              style={{ width: "90%" }}
-              class="row filters filters1 categoryone mx-2"
-            >
-              <div
-                class="ui-group mx-auto d-flex justify-content-center"
-                id="cat__one"
-              >
-                <div
-                  ref={filterscroller1}
-                  class="button-group"
-                  style={{ overflowX: "auto" }}
-                  id="categoryone"
-                  data-filter-group="color"
-                >
-                  {filter1.map((e, i) => {
-                    return (
-                      <button
-                        onClick={() => {
-                          setWorktype(e);
-                        }}
-                        className={`${
-                          e == Worktype ? "is-checked " : ""
-                        }button mb-1`}
-                        key={i}
-                      >
-                        {e}
-                      </button>
-                    );
-                  })}
-                </div>
-              </div>
-            </div>
-            {f1arrowvisible && (
-              <AiFillCaretRight
-                size={20}
-                style={{ marginRight: "auto" }}
-                onClick={() => (filterscroller1.current.scrollLeft += 100)}
-              />
-            )}
-          </div>
-          <div className="d-flex flex-row justify-content-center align-items-center">
-            {f2arrowvisible && (
-              <AiFillCaretLeft
-                onClick={() => (filterscroller2.current.scrollLeft -= 100)}
-                size={20}
-                style={{ marginLeft: "auto" }}
-              />
-            )}
-
-            <div
-              style={{ width: "90%" }}
-              class="row filters d-flex justify-content-center filters2 categorytwo mx-2"
-            >
-              <div
-                ref={filterscroller2}
-                style={{ overflowX: "auto", width: "unset" }}
-                class="button-group "
-                id="categorytwo"
-                data-filter-group="size"
-              >
-                {filter2.map((e, i) => {
-                  return (
-                    <button
-                      onClick={() => {
-                        setWorkcategory(e);
-                      }}
-                      className={`${
-                        e == Workcategory ? "is-checked " : ""
-                      }button`}
-                      key={i}
-                    >
-                      {e}
-                    </button>
-                  );
-                })}
-              </div>
-            </div>
-            {f2arrowvisible && (
-              <AiFillCaretRight
-                size={20}
-                style={{ marginRight: "auto" }}
-                onClick={() => (filterscroller2.current.scrollLeft += 100)}
-              />
-            )}
-          </div>
-          {jobopenings.every((elem) => elem == undefined) ? (
-            nojobs
-          ) : (
-            <div className="long no-gutters ">
-              <div className="grid no-gutters">
-                <div
-                  ref={portfolioref}
-                  className="row portfolio-container no-gutters joinourteam"
-                  data-aos="fade-up"
-                  data-aos-delay="200"
-                >
-                  {jobopenings}
-                </div>
-              </div>
-            </div>
-          )}
-        </div>
-      </section>
     </>
   );
 }
 
-export default Jobs;
+export default ApplicationModal;
