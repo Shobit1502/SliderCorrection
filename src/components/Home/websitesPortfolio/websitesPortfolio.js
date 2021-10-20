@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 import "./websitesPortfolio.css";
 import Websitecards from "./websitecards.js";
+import WebsiteContainer from "./websiteContainer";
 import {
   latestWebsites,
   restaurantWebsites,
@@ -17,16 +18,15 @@ function WebsitesPortfolio({ refProp }) {
   const [activeCategory, setActiveCategory] = useState("latest-list");
 
   const handleListItemClick = (e) => {
-    console.log(e.target.id);
     let preActive = activeCategory;
-    let preActiveWebcards = `${preActive}-webcards`;
     let currActive = e.target.id;
-    let currActiveWebcards = `${currActive}-webcards`;
+    // let preId = `${preActive}-webcards`;
+    // let currId = `${currActive}-webcards`;
     if (preActive != currActive) {
       document.getElementById(preActive).classList.remove("filter-active");
-      document.getElementById(preActiveWebcards).style.display = "none";
+      // document.getElementById(preId).style.display = "none";
       document.getElementById(currActive).classList.add("filter-active");
-      document.getElementById(currActiveWebcards).style.display = "flex";
+      // document.getElementById(currId).style.display = "flex";
       setActiveCategory(currActive);
     }
   };
@@ -117,7 +117,10 @@ function WebsitesPortfolio({ refProp }) {
               </ul>
             </div>
           </div>
-          <div id="website-cards">
+
+          <WebsiteContainer activeCategory={activeCategory} />
+
+          {/* <div id="website-cards">
             <div className="container">
               <div className="category " id="latest-list-webcards">
                 {latestWebsites.map((card) => (
@@ -128,7 +131,7 @@ function WebsitesPortfolio({ refProp }) {
                     about={card.aboutWebsite}
                     tech={card.technologies}
                     host={card.hosting}
-                    flip={false}
+                    toFlip={true}
                   />
                 ))}
               </div>
@@ -147,6 +150,7 @@ function WebsitesPortfolio({ refProp }) {
                     about={card.aboutWebsite}
                     tech={card.technologies}
                     host={card.hosting}
+                    toFlip={true}
                   />
                 ))}
               </div>
@@ -255,7 +259,7 @@ function WebsitesPortfolio({ refProp }) {
                 host={card.hosting}
               />
             ))}
-          </div>
+          </div>*/}
         </div>
       </section>
     </>

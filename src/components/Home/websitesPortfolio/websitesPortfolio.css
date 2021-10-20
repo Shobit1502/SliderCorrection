@@ -1,5 +1,6 @@
 .our-websites-section {
   padding-top: 100px;
+  box-sizing: border-box;
 }
 
 #website-filters {
@@ -54,5 +55,5 @@
   padding: 0 5%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }

@@ -1,15 +1,18 @@
 .flipcard {
   box-sizing: border-box;
   border: 1px solid black;
-  height: 225px;
-  width: 33vw;
+  height: 18vw;
+  max-height: 337.5px;
+  min-height: 225px;
+  width: 32vw;
   max-width: 600px;
   min-width: 400px;
   overflow: hidden;
   background-color: transparent;
   border-radius: 8px;
   position: relative;
-  margin-bottom: 20px;
+  margin: 10px;
+  margin-bottom: 10px;
 }
 
 .btn-demo {
