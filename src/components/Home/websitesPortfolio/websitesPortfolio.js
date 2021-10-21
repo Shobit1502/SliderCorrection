@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 import "./websitesPortfolio.css";
 import Websitecards from "./websitecards.js";
@@ -8,11 +8,11 @@ import {
   restaurantWebsites,
   realEstateWebsites,
   petCareWebsites,
+  portfolioWebsites,
   professionalWebsites,
   NGOWebsites,
   ecommerceWebsites,
-  smeWebsites,
-} from "./websitesData";
+} from "./websitesInfo";
 
 function WebsitesPortfolio({ refProp }) {
   const [activeCategory, setActiveCategory] = useState("latest-list");
@@ -51,68 +51,45 @@ function WebsitesPortfolio({ refProp }) {
           <div className="row" data-aos="fade-up" data-aos-delay="100">
             <div className="adj col-lg-12 d-flex justify-content-center">
               <ul id="website-filters">
-                <li
-                  data-filter=".filter-latest"
-                  className="filter-active"
-                  id="latest-list"
-                  onClick={handleListItemClick}
-                >
+                <li data-filter=".filter-latest" className="filter-active">
                   Latest
                 </li>
                 <li
                   data-filter=".filter-restaurant"
                   title="Bakery, Cafe, Catering, Food Trucks, Restaurant"
-                  id="restaurant-list"
-                  onClick={handleListItemClick}
                 >
                   Restaurant
                 </li>
                 <li
                   data-filter=".filter-realestate"
                   title="Construction, Modular housing, Turnkey Projects"
-                  id="realestate-list"
-                  onClick={handleListItemClick}
                 >
                   Real Estate
                 </li>
                 <li
                   data-filter=".filter-ngo"
                   title="Animal Care, Environment, Poverty Alleviation, Human Rights"
-                  id="ngo-list"
-                  onClick={handleListItemClick}
                 >
                   NGO
                 </li>
                 <li
+                  data-filter=".filter-portfolio"
+                  title="Blog, CV, Advertisement, Artist, Printing"
+                >
+                  Portfolio
+                </li>
+                <li
                   data-filter=".filter-ecommerce"
                   title="Clothing, Dried Fruits, NGO, Restaurant"
-                  id="ecommerce-list"
-                  onClick={handleListItemClick}
                 >
                   eCommerce
                 </li>
-                <li
-                  data-filter=".filter-petcare"
-                  id="petcare-list"
-                  onClick={handleListItemClick}
-                >
-                  Pet Care
-                </li>
+                <li data-filter=".filter-petcare">Pet Care</li>
                 <li
                   data-filter=".filter-professional"
                   title="Accountant, Lawyer, Educator"
-                  id="professional-list"
-                  onClick={handleListItemClick}
                 >
                   Professional
-                </li>
-                <li
-                  data-filter=".filter-sme"
-                  title="Blog, CV, Advertisement, Artist, Printing"
-                  id="sme-list"
-                  onClick={handleListItemClick}
-                >
-                  SME
                 </li>
               </ul>
             </div>
@@ -251,12 +228,10 @@ function WebsitesPortfolio({ refProp }) {
           >
             {smeWebsites.map((card) => (
               <Websitecards
-                className="web-card"
-                img={card.backgroundImgPath}
+                background={card.backgroundImg}
                 link={card.websiteLink}
                 about={card.aboutWebsite}
                 tech={card.technologies}
-                host={card.hosting}
               />
             ))}
           </div>*/}
