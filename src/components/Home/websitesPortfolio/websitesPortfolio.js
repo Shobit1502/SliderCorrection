@@ -1,6 +1,24 @@
 import React from "react";
 
 import "./websitesPortfolio.css";
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+import Websitecards from "./websitecards.js";
+import {
+  latestWebsites,
+  restaurantWebsites,
+  realEstateWebsites,
+  petCareWebsites,
+  portfolioWebsites,
+  professionalWebsites,
+  NGOWebsites,
+  ecommerceWebsites,
+} from "./websitesInfo";
+
+function WebsitesPortfolio({ refProp }) {
+=======
+>>>>>>> webJobs
 import WebsiteContainer from "./websiteContainer";
 
 function WebsitesPortfolio({ refProp }) {
@@ -18,6 +36,10 @@ function WebsitesPortfolio({ refProp }) {
     }
   };
 
+<<<<<<< HEAD
+=======
+>>>>>>> website
+>>>>>>> webJobs
   return (
     <>
       <section
@@ -81,8 +103,82 @@ function WebsitesPortfolio({ refProp }) {
               </ul>
             </div>
           </div>
+<<<<<<< HEAD
 
           <WebsiteContainer category={activeCategory} flip={toFlip} />
+=======
+<<<<<<< HEAD
+          <div id="website-cards">
+            {latestWebsites.map((card) => (
+              <Websitecards
+                background={card.backgroundImg}
+                link={card.websiteLink}
+                about={card.aboutWebsite}
+                tech={card.technologies}
+              />
+            ))}
+            {restaurantWebsites.map((card) => (
+              <Websitecards
+                background={card.backgroundImg}
+                link={card.websiteLink}
+                about={card.aboutWebsite}
+                tech={card.technologies}
+              />
+            ))}
+            {realEstateWebsites.map((card) => (
+              <Websitecards
+                background={card.backgroundImg}
+                link={card.websiteLink}
+                about={card.aboutWebsite}
+                tech={card.technologies}
+              />
+            ))}
+            {NGOWebsites.map((card) => (
+              <Websitecards
+                background={card.backgroundImg}
+                link={card.websiteLink}
+                about={card.aboutWebsite}
+                tech={card.technologies}
+              />
+            ))}
+            {portfolioWebsites.map((card) => (
+              <Websitecards
+                background={card.backgroundImg}
+                link={card.websiteLink}
+                about={card.aboutWebsite}
+                tech={card.technologies}
+              />
+            ))}
+            {ecommerceWebsites.map((card) => (
+              <Websitecards
+                background={card.backgroundImg}
+                link={card.websiteLink}
+                about={card.aboutWebsite}
+                tech={card.technologies}
+              />
+            ))}
+            {petCareWebsites.map((card) => (
+              <Websitecards
+                background={card.backgroundImg}
+                link={card.websiteLink}
+                about={card.aboutWebsite}
+                tech={card.technologies}
+              />
+            ))}
+            {professionalWebsites.map((card) => (
+              <Websitecards
+                background={card.backgroundImg}
+                link={card.websiteLink}
+                about={card.aboutWebsite}
+                tech={card.technologies}
+              />
+            ))}
+          </div>
+=======
+
+          <WebsiteContainer category={activeCategory} flip={toFlip} />
+>>>>>>> website
+>>>>>>> webJobs
         </div>
       </section>
     </>

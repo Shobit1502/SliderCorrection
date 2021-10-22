@@ -1,4 +1,22 @@
+<<<<<<< HEAD
 import React, { useState, useEffect } from "react";
+=======
+<<<<<<< HEAD
+import react from "react";
+
+function Websitecards(props) {
+  console.log(props.background);
+  console.log(props.link);
+  console.log(props.about);
+  console.log(props.tech);
+  return (
+    <button type="button" class="btn btn-primary">
+      Primary
+    </button>
+=======
+import React, { useState } from "react";
+import { useEffect } from "react";
+>>>>>>> webJobs
 import ReactCardFlip from "react-card-flip";
 
 import "./websitecards.css";
@@ -100,6 +118,10 @@ function Websitecards(props) {
         </button>
       </div>
     </ReactCardFlip>
+<<<<<<< HEAD
+=======
+>>>>>>> website
+>>>>>>> webJobs
   );
 }
 
