@@ -1,24 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 
 import "./websitesPortfolio.css";
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-import Websitecards from "./websitecards.js";
-import {
-  latestWebsites,
-  restaurantWebsites,
-  realEstateWebsites,
-  petCareWebsites,
-  portfolioWebsites,
-  professionalWebsites,
-  NGOWebsites,
-  ecommerceWebsites,
-} from "./websitesInfo";
-
-function WebsitesPortfolio({ refProp }) {
-=======
->>>>>>> webJobs
 import WebsiteContainer from "./websiteContainer";
 
 function WebsitesPortfolio({ refProp }) {
@@ -26,8 +8,10 @@ function WebsitesPortfolio({ refProp }) {
   const [toFlip, setToFlip] = useState(false);
 
   const handleListItemClick = (e) => {
+    // console.log(e);
     let preActive = activeCategory;
     let currActive = e.target.id;
+    console.log(currActive);
     if (preActive != currActive) {
       document.getElementById(preActive).classList.remove("filter-active");
       document.getElementById(currActive).classList.add("filter-active");
@@ -36,10 +20,6 @@ function WebsitesPortfolio({ refProp }) {
     }
   };
 
-<<<<<<< HEAD
-=======
->>>>>>> website
->>>>>>> webJobs
   return (
     <>
       <section
@@ -60,125 +40,74 @@ function WebsitesPortfolio({ refProp }) {
           <div className="row" data-aos="fade-up" data-aos-delay="100">
             <div className="adj col-lg-12 d-flex justify-content-center">
               <ul id="website-filters">
-                <li data-filter=".filter-latest" className="filter-active">
+                <li
+                  id="latest-list"
+                  data-filter=".filter-latest"
+                  className="filter-active"
+                  onClick={handleListItemClick}
+                >
                   Latest
                 </li>
                 <li
+                  id="restaurant-list"
                   data-filter=".filter-restaurant"
                   title="Bakery, Cafe, Catering, Food Trucks, Restaurant"
+                  onClick={handleListItemClick}
                 >
                   Restaurant
                 </li>
                 <li
+                  id="realestate-list"
                   data-filter=".filter-realestate"
                   title="Construction, Modular housing, Turnkey Projects"
+                  onClick={handleListItemClick}
                 >
                   Real Estate
                 </li>
                 <li
+                  id="ngo-list"
                   data-filter=".filter-ngo"
                   title="Animal Care, Environment, Poverty Alleviation, Human Rights"
+                  onClick={handleListItemClick}
                 >
                   NGO
                 </li>
                 <li
-                  data-filter=".filter-portfolio"
-                  title="Blog, CV, Advertisement, Artist, Printing"
-                >
-                  Portfolio
-                </li>
-                <li
+                  id="ecommerce-list"
                   data-filter=".filter-ecommerce"
                   title="Clothing, Dried Fruits, NGO, Restaurant"
+                  onClick={handleListItemClick}
                 >
                   eCommerce
                 </li>
-                <li data-filter=".filter-petcare">Pet Care</li>
                 <li
+                  data-filter=".filter-petcare"
+                  onClick={handleListItemClick}
+                  id="petcare-list"
+                >
+                  Pet Care
+                </li>
+                <li
+                  id="professional-list"
                   data-filter=".filter-professional"
                   title="Accountant, Lawyer, Educator"
+                  onClick={handleListItemClick}
                 >
                   Professional
+                </li>
+                <li
+                  id="sme-list"
+                  data-filter=".filter-professional"
+                  title="Accountant, Lawyer, Educator"
+                  onClick={handleListItemClick}
+                >
+                  SME
                 </li>
               </ul>
             </div>
           </div>
-<<<<<<< HEAD
 
           <WebsiteContainer category={activeCategory} flip={toFlip} />
-=======
-<<<<<<< HEAD
-          <div id="website-cards">
-            {latestWebsites.map((card) => (
-              <Websitecards
-                background={card.backgroundImg}
-                link={card.websiteLink}
-                about={card.aboutWebsite}
-                tech={card.technologies}
-              />
-            ))}
-            {restaurantWebsites.map((card) => (
-              <Websitecards
-                background={card.backgroundImg}
-                link={card.websiteLink}
-                about={card.aboutWebsite}
-                tech={card.technologies}
-              />
-            ))}
-            {realEstateWebsites.map((card) => (
-              <Websitecards
-                background={card.backgroundImg}
-                link={card.websiteLink}
-                about={card.aboutWebsite}
-                tech={card.technologies}
-              />
-            ))}
-            {NGOWebsites.map((card) => (
-              <Websitecards
-                background={card.backgroundImg}
-                link={card.websiteLink}
-                about={card.aboutWebsite}
-                tech={card.technologies}
-              />
-            ))}
-            {portfolioWebsites.map((card) => (
-              <Websitecards
-                background={card.backgroundImg}
-                link={card.websiteLink}
-                about={card.aboutWebsite}
-                tech={card.technologies}
-              />
-            ))}
-            {ecommerceWebsites.map((card) => (
-              <Websitecards
-                background={card.backgroundImg}
-                link={card.websiteLink}
-                about={card.aboutWebsite}
-                tech={card.technologies}
-              />
-            ))}
-            {petCareWebsites.map((card) => (
-              <Websitecards
-                background={card.backgroundImg}
-                link={card.websiteLink}
-                about={card.aboutWebsite}
-                tech={card.technologies}
-              />
-            ))}
-            {professionalWebsites.map((card) => (
-              <Websitecards
-                background={card.backgroundImg}
-                link={card.websiteLink}
-                about={card.aboutWebsite}
-                tech={card.technologies}
-              />
-            ))}
-          </div>
-=======
-
-          <WebsiteContainer category={activeCategory} flip={toFlip} />
->>>>>>> website
->>>>>>> webJobs
         </div>
       </section>
     </>
