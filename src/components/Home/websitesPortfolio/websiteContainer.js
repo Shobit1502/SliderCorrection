@@ -1,8 +1,7 @@
-import React, { useState } from "react";
-import { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 
 import "./websiteContainer.css";
-import Websitecards from "./websitecards";
+import Websitecards from "./websitecards.js";
 import {
   latestWebsites,
   restaurantWebsites,
@@ -15,19 +14,21 @@ import {
 } from "./websitesData";
 
 function WebsiteContainer(props) {
-  console.log(props);
+  let activeCategory = props.category;
 
-  const [toFlip, setToFlip] = useState(true);
+  let activeCategoryId = `${activeCategory}-webcards`;
 
   useEffect(() => {
-    console.log("Category changed");
-    setToFlip(!toFlip);
-  }, [props.activeCategory]);
+    document.getElementById(activeCategoryId).style.display = "none";
+    setTimeout(function () {
+      document.getElementById(activeCategoryId).style.display = "flex";
+    }, 50);
+  }, [props.flip]);
 
-  if (props.activeCategory === "latest-list") {
+  if (activeCategory == "latest-list") {
     return (
       <>
-        <div className="category">
+        <div className="category " id="latest-list-webcards">
           {latestWebsites.map((card) => (
             <Websitecards
               className="web-card"
@@ -36,16 +37,16 @@ function WebsiteContainer(props) {
               about={card.aboutWebsite}
               tech={card.technologies}
               host={card.hosting}
-              toFlip={toFlip}
+              flip={props.flip}
             />
           ))}
         </div>
       </>
     );
-  } else if (props.activeCategory === "restaurant-list") {
+  } else if (activeCategory == "restaurant-list") {
     return (
       <>
-        <div className="category">
+        <div className="category " id="restaurant-list-webcards">
           {restaurantWebsites.map((card) => (
             <Websitecards
               className="web-card"
@@ -54,16 +55,16 @@ function WebsiteContainer(props) {
               about={card.aboutWebsite}
               tech={card.technologies}
               host={card.hosting}
-              toFlip={toFlip}
+              flip={props.flip}
             />
           ))}
         </div>
       </>
     );
-  } else if (props.activeCategory === "realestate-list") {
+  } else if (activeCategory == "realestate-list") {
     return (
       <>
-        <div className="category">
+        <div className="category " id="realestate-list-webcards">
           {realEstateWebsites.map((card) => (
             <Websitecards
               className="web-card"
@@ -72,16 +73,16 @@ function WebsiteContainer(props) {
               about={card.aboutWebsite}
               tech={card.technologies}
               host={card.hosting}
-              toFlip={toFlip}
+              flip={props.flip}
             />
           ))}
         </div>
       </>
     );
-  } else if (props.activeCategory === "ngo-list") {
+  } else if (activeCategory == "ngo-list") {
     return (
       <>
-        <div className="category">
+        <div className="category " id="ngo-list-webcards">
           {NGOWebsites.map((card) => (
             <Websitecards
               className="web-card"
@@ -90,16 +91,16 @@ function WebsiteContainer(props) {
               about={card.aboutWebsite}
               tech={card.technologies}
               host={card.hosting}
-              toFlip={toFlip}
+              flip={props.flip}
             />
           ))}
         </div>
       </>
     );
-  } else if (props.activeCategory === "ecommerce-list") {
+  } else if (activeCategory == "ecommerce-list") {
     return (
       <>
-        <div className="category">
+        <div className="category " id="ecommerce-list-webcards">
           {ecommerceWebsites.map((card) => (
             <Websitecards
               className="web-card"
@@ -108,16 +109,16 @@ function WebsiteContainer(props) {
               about={card.aboutWebsite}
               tech={card.technologies}
               host={card.hosting}
-              toFlip={toFlip}
+              flip={props.flip}
             />
           ))}
         </div>
       </>
     );
-  } else if (props.activeCategory === "petcare-list") {
+  } else if (activeCategory == "petcare-list") {
     return (
       <>
-        <div className="category">
+        <div className="category " id="petcare-list-webcards">
           {petCareWebsites.map((card) => (
             <Websitecards
               className="web-card"
@@ -126,16 +127,16 @@ function WebsiteContainer(props) {
               about={card.aboutWebsite}
               tech={card.technologies}
               host={card.hosting}
-              toFlip={toFlip}
+              flip={props.flip}
             />
           ))}
         </div>
       </>
     );
-  } else if (props.activeCategory === "professional-list") {
+  } else if (activeCategory == "professional-list") {
     return (
       <>
-        <div className="category">
+        <div className="category " id="professional-list-webcards">
           {professionalWebsites.map((card) => (
             <Websitecards
               className="web-card"
@@ -144,16 +145,16 @@ function WebsiteContainer(props) {
               about={card.aboutWebsite}
               tech={card.technologies}
               host={card.hosting}
-              toFlip={toFlip}
+              flip={props.flip}
             />
           ))}
         </div>
       </>
     );
-  } else if (props.activeCategory === "sme-list") {
+  } else if (activeCategory == "sme-list") {
     return (
       <>
-        <div className="category">
+        <div className="category " id="sme-list-webcards">
           {smeWebsites.map((card) => (
             <Websitecards
               className="web-card"
@@ -162,7 +163,7 @@ function WebsiteContainer(props) {
               about={card.aboutWebsite}
               tech={card.technologies}
               host={card.hosting}
-              toFlip={toFlip}
+              flip={props.flip}
             />
           ))}
         </div>
