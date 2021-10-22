@@ -6,7 +6,7 @@ import ReactMarkdown from "react-markdown";
 import ModalVideo from "react-modal-video";
 import { GoChevronDown } from "react-icons/go";
 import { GoChevronUp } from "react-icons/go";
-// import "./modal-video.scss";
+import "./modal-video.scss";
 
 function Job(props) {
   const [modalIsOpen4, setIsOpen4] = useState(null);
