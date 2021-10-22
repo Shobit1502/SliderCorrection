@@ -1,32 +1,20 @@
 import React, { useState } from "react";
 
 import "./websitesPortfolio.css";
-import Websitecards from "./websitecards.js";
-import {
-  latestWebsites,
-  restaurantWebsites,
-  realEstateWebsites,
-  petCareWebsites,
-  professionalWebsites,
-  NGOWebsites,
-  ecommerceWebsites,
-  smeWebsites,
-} from "./websitesData";
+import WebsiteContainer from "./websiteContainer";
 
 function WebsitesPortfolio({ refProp }) {
   const [activeCategory, setActiveCategory] = useState("latest-list");
+  const [toFlip, setToFlip] = useState(false);
 
   const handleListItemClick = (e) => {
     console.log(e.target.id);
     let preActive = activeCategory;
-    let preActiveWebcards = `${preActive}-webcards`;
     let currActive = e.target.id;
-    let currActiveWebcards = `${currActive}-webcards`;
     if (preActive != currActive) {
       document.getElementById(preActive).classList.remove("filter-active");
-      document.getElementById(preActiveWebcards).style.display = "none";
       document.getElementById(currActive).classList.add("filter-active");
-      document.getElementById(currActiveWebcards).style.display = "flex";
+      setToFlip(!toFlip);
       setActiveCategory(currActive);
     }
   };
@@ -117,145 +105,8 @@ function WebsitesPortfolio({ refProp }) {
               </ul>
             </div>
           </div>
-          <div id="website-cards">
-            <div className="container">
-              <div className="category " id="latest-list-webcards">
-                {latestWebsites.map((card) => (
-                  <Websitecards
-                    className="web-card"
-                    img={card.backgroundImgPath}
-                    link={card.websiteLink}
-                    about={card.aboutWebsite}
-                    tech={card.technologies}
-                    host={card.hosting}
-                    flip={false}
-                  />
-                ))}
-              </div>
-            </div>
-            <div className="container">
-              <div
-                className="category "
-                id="restaurant-list-webcards"
-                style={{ display: "none" }}
-              >
-                {restaurantWebsites.map((card) => (
-                  <Websitecards
-                    className="web-card"
-                    img={card.backgroundImgPath}
-                    link={card.websiteLink}
-                    about={card.aboutWebsite}
-                    tech={card.technologies}
-                    host={card.hosting}
-                  />
-                ))}
-              </div>
-            </div>
-            <div className="container">
-              <div
-                className="category "
-                id="realestate-list-webcards"
-                style={{ display: "none" }}
-              >
-                {realEstateWebsites.map((card) => (
-                  <Websitecards
-                    className="web-card"
-                    img={card.backgroundImgPath}
-                    link={card.websiteLink}
-                    about={card.aboutWebsite}
-                    tech={card.technologies}
-                    host={card.hosting}
-                  />
-                ))}
-              </div>
-            </div>
-            <div className="container">
-              <div
-                className="category "
-                id="ngo-list-webcards"
-                style={{ display: "none" }}
-              >
-                {NGOWebsites.map((card) => (
-                  <Websitecards
-                    className="web-card"
-                    img={card.backgroundImgPath}
-                    link={card.websiteLink}
-                    about={card.aboutWebsite}
-                    tech={card.technologies}
-                    host={card.hosting}
-                  />
-                ))}
-              </div>
-            </div>
-            <div className="container">
-              <div
-                className="category "
-                id="ecommerce-list-webcards"
-                style={{ display: "none" }}
-              >
-                {ecommerceWebsites.map((card) => (
-                  <Websitecards
-                    className="web-card"
-                    img={card.backgroundImgPath}
-                    link={card.websiteLink}
-                    about={card.aboutWebsite}
-                    tech={card.technologies}
-                    host={card.hosting}
-                  />
-                ))}
-              </div>
-            </div>
-            <div className="container">
-              <div
-                className="category "
-                id="petcare-list-webcards"
-                style={{ display: "none" }}
-              >
-                {petCareWebsites.map((card) => (
-                  <Websitecards
-                    className="web-card"
-                    img={card.backgroundImgPath}
-                    link={card.websiteLink}
-                    about={card.aboutWebsite}
-                    tech={card.technologies}
-                    host={card.hosting}
-                  />
-                ))}
-              </div>
-            </div>
-            <div
-              className="category "
-              id="professional-list-webcards"
-              style={{ display: "none" }}
-            >
-              {professionalWebsites.map((card) => (
-                <Websitecards
-                  className="web-card"
-                  img={card.backgroundImgPath}
-                  link={card.websiteLink}
-                  about={card.aboutWebsite}
-                  tech={card.technologies}
-                  host={card.hosting}
-                />
-              ))}
-            </div>
-          </div>
-          <div
-            className="category "
-            id="sme-list-webcards"
-            style={{ display: "none" }}
-          >
-            {smeWebsites.map((card) => (
-              <Websitecards
-                className="web-card"
-                img={card.backgroundImgPath}
-                link={card.websiteLink}
-                about={card.aboutWebsite}
-                tech={card.technologies}
-                host={card.hosting}
-              />
-            ))}
-          </div>
+
+          <WebsiteContainer category={activeCategory} flip={toFlip} />
         </div>
       </section>
     </>

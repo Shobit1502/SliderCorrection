@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useEffect } from "react";
 import ReactCardFlip from "react-card-flip";
 
 import "./websitecards.css";
@@ -10,14 +11,17 @@ function Websitecards(props) {
     setIsFlipped(!isFlipped);
   };
 
+  useEffect(() => {
+    setIsFlipped(false);
+  }, [props.flip]);
+
   return (
-    <ReactCardFlip isFlipped={isFlipped}>
+    <ReactCardFlip isFlipped={isFlipped} id="react-flip-card">
       <div
         className="flipcard-front flipcard"
         style={{
           backgroundImage: `url('${props.img}')`,
           backgroundRepeat: "no-repeat",
-          backgroundSize: "100%",
         }}
       >
         <a
@@ -46,6 +50,7 @@ function Websitecards(props) {
           backgroundImage: `url('${props.img}')`,
           backgroundColor: "rgba(255, 255, 255, 0.85)",
           backgroundBlendMode: "lighten",
+          backgroundRepeat: "no-repeat",
         }}
       >
         <div className="website-details">
