@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./websitesPortfolio.css";
+<<<<<<< HEAD
 import Websitecards from "./websitecards.js";
 import {
   latestWebsites,
@@ -14,6 +15,26 @@ import {
 } from "./websitesInfo";
 
 function WebsitesPortfolio({ refProp }) {
+=======
+import WebsiteContainer from "./websiteContainer";
+
+function WebsitesPortfolio({ refProp }) {
+  const [activeCategory, setActiveCategory] = useState("latest-list");
+  const [toFlip, setToFlip] = useState(false);
+
+  const handleListItemClick = (e) => {
+    console.log(e.target.id);
+    let preActive = activeCategory;
+    let currActive = e.target.id;
+    if (preActive != currActive) {
+      document.getElementById(preActive).classList.remove("filter-active");
+      document.getElementById(currActive).classList.add("filter-active");
+      setToFlip(!toFlip);
+      setActiveCategory(currActive);
+    }
+  };
+
+>>>>>>> website
   return (
     <>
       <section
@@ -77,6 +98,7 @@ function WebsitesPortfolio({ refProp }) {
               </ul>
             </div>
           </div>
+<<<<<<< HEAD
           <div id="website-cards">
             {latestWebsites.map((card) => (
               <Websitecards
@@ -143,6 +165,10 @@ function WebsitesPortfolio({ refProp }) {
               />
             ))}
           </div>
+=======
+
+          <WebsiteContainer category={activeCategory} flip={toFlip} />
+>>>>>>> website
         </div>
       </section>
     </>
