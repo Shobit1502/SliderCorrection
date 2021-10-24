@@ -119,7 +119,11 @@ function Job(props) {
           >
             <div className="carousel-inner">
               {props.videos.map((e, index) => (
-                <div className={`carousel-item${index == 0 ? " active" : ""}`}>
+                <div
+                  className={`carousel-item${
+                    index == 0 ? " active" : ""
+                  } position-relative`}
+                >
                   {e.picture && (
                     <img
                       className="d-block  curimage  "
