@@ -305,6 +305,7 @@ function Jobs(props) {
           projecttitle={job.projecttitle}
           isService={props.isService}
           pdf={job.pdf}
+          key={job.appID}
         />
       );
     }
@@ -804,15 +805,15 @@ function Jobs(props) {
 
             <div
               style={{ width: "90%" }}
-              class="row filters filters1 categoryone mx-2"
+              className="row filters filters1 categoryone mx-2"
             >
               <div
-                class="ui-group mx-auto d-flex justify-content-center"
+                className="ui-group mx-auto d-flex justify-content-center"
                 id="cat__one"
               >
                 <div
                   ref={filterscroller1}
-                  class="button-group"
+                  className="button-group"
                   style={{ overflowX: "auto" }}
                   id="categoryone"
                   data-filter-group="color"
@@ -854,12 +855,12 @@ function Jobs(props) {
 
             <div
               style={{ width: "90%" }}
-              class="row filters d-flex justify-content-center filters2 categorytwo mx-2"
+              className="row filters d-flex justify-content-center filters2 categorytwo mx-2"
             >
               <div
                 ref={filterscroller2}
                 style={{ overflowX: "auto", width: "unset" }}
-                class="button-group "
+                className="button-group "
                 id="categorytwo"
                 data-filter-group="size"
               >
