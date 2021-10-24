@@ -8,11 +8,15 @@ import { AiFillCaretLeft } from "react-icons/ai";
 import { AiFillCaretRight } from "react-icons/ai";
 // import ApplicationModal from "./ApplicationModal";
 import InputSkills from "./InputSkills";
+import { useMemo } from "react";
 
 function Jobs(props) {
   // Add all the filters for level 1 and level 2 here
-  let filter1 = ["Permanent", "Internship"];
-  let filter2 = ["Web Design", "Graphics", "Robotics", "AI & ML"];
+  let filter1 = useMemo(() => ["Permanent", "Internship"], []);
+  let filter2 = useMemo(
+    () => ["Web Design", "Graphics", "Robotics", "AI & ML"],
+    []
+  );
   const [Worktype, setWorktype] = useState(filter1[0]);
   const [Workcategory, setWorkcategory] = useState(filter2[0]);
   // here
@@ -158,13 +162,13 @@ function Jobs(props) {
     setErr(ee);
     setErrEmail(ef);
     setApplicationDetails({ ...applicationDetails, [name]: value });
-
+    let s;
     if (name === "available_inhours" || name === "available_inmonths") {
-      var s = JSON.parse(sessionStorage.getItem(applicationDetails.jobID));
+      s = JSON.parse(sessionStorage.getItem(applicationDetails.jobID));
       s[name] = value;
       sessionStorage.setItem(applicationDetails.jobID, JSON.stringify(s));
     } else {
-      var s = JSON.parse(localStorage.getItem(applicationDetails.jobID));
+      s = JSON.parse(localStorage.getItem(applicationDetails.jobID));
       s[name] = value;
       localStorage.setItem(applicationDetails.jobID, JSON.stringify(s));
     }
