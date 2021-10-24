@@ -286,12 +286,10 @@ function Jobs(props) {
       </h1>
     </div>
   );
-  let jobopenings = Jobdata.map((job, index) => {
-    if (
-      job.jobFilterLevel1 == Worktype &&
-      job.jobFilterLevel2 == Workcategory
-    ) {
-      return (
+  let jobopenings = Jobdata.map(
+    (job, index) =>
+      job.jobFilterLevel1 === Worktype &&
+      job.jobFilterLevel2 === Workcategory && (
         <Job
           openForm={openForm}
           id={job.appID}
@@ -311,9 +309,8 @@ function Jobs(props) {
           pdf={job.pdf}
           key={job.appID}
         />
-      );
-    }
-  });
+      )
+  );
   return (
     <>
       <Modal
@@ -576,7 +573,7 @@ function Jobs(props) {
                   name="applicantname"
                   className={
                     applicationDetails.applicantname === "" &&
-                    blinks.name == true
+                    blinks.name === true
                       ? "form-control form-control-sm border border-danger highlight-item"
                       : "form-control form-control-sm border border-danger"
                   }
@@ -596,7 +593,7 @@ function Jobs(props) {
                   name="applicantemail"
                   className={
                     applicationDetails.applicantemail === "" &&
-                    blinks.email == true
+                    blinks.email === true
                       ? "form-control form-control-sm border border-danger highlight-item"
                       : "form-control form-control-sm border border-danger"
                   }
@@ -619,7 +616,7 @@ function Jobs(props) {
                   name="available_inhours"
                   className={
                     applicationDetails.available_inhours === "" &&
-                    blinks.availability == true
+                    blinks.availability === true
                       ? "form-control form-control-sm border border-danger highlight-item selectpicker"
                       : "form-control form-control-sm border border-danger selectpicker"
                   }
@@ -646,7 +643,7 @@ function Jobs(props) {
                   name="available_inmonths"
                   className={
                     applicationDetails.available_inmonths === "" &&
-                    blinks.period == true
+                    blinks.period === true
                       ? "form-control form-control-sm border border-danger highlight-item selectpicker"
                       : "form-control form-control-sm border border-danger selectpicker"
                   }
@@ -681,7 +678,7 @@ function Jobs(props) {
             <select
               name="skill1"
               className={
-                applicationDetails.skill1 === "" && blinks.skill1 == true
+                applicationDetails.skill1 === "" && blinks.skill1 === true
                   ? "form-control form-control-sm border border-danger highlight-item selectpicker"
                   : "form-control form-control-sm border border-danger selectpicker"
               }
@@ -707,7 +704,7 @@ function Jobs(props) {
             <select
               name="skill2"
               className={
-                applicationDetails.skill2 === "" && blinks.skill2 == true
+                applicationDetails.skill2 === "" && blinks.skill2 === true
                   ? "form-control form-control-sm border border-danger highlight-item selectpicker"
                   : "form-control form-control-sm border border-danger selectpicker"
               }
@@ -733,7 +730,7 @@ function Jobs(props) {
             <select
               name="skill3"
               className={
-                applicationDetails.skill3 === "" && blinks.skill3 == true
+                applicationDetails.skill3 === "" && blinks.skill3 === true
                   ? "form-control form-control-sm border border-danger highlight-item selectpicker"
                   : "form-control form-control-sm border border-danger selectpicker"
               }
@@ -759,7 +756,7 @@ function Jobs(props) {
             <select
               name="skill4"
               className={
-                applicationDetails.skill4 === "" && blinks.skill4 == true
+                applicationDetails.skill4 === "" && blinks.skill4 === true
                   ? "form-control form-control-sm border border-danger highlight-item selectpicker"
                   : "form-control form-control-sm border border-danger selectpicker"
               }
