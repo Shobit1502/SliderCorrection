@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from "react-responsive-carousel";
 
 import "./websiteContainer.css";
 import Websitecards from "./websitecards.js";
@@ -25,24 +27,60 @@ function WebsiteContainer(props) {
     }, 50);
   }, [props.flip]);
 
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    window.screen.width <= 1110 ? setIsMobile(true) : setIsMobile(false);
+  }, [window.screen.width]);
+
+  function detectWindowSize() {
+    window.innerWidth <= 1110 ? setIsMobile(true) : setIsMobile(false);
+  }
+
+  window.onresize = detectWindowSize;
+
   if (activeCategory == "latest-list") {
-    return (
-      <>
-        <div className="category " id="latest-list-webcards">
-          {latestWebsites.map((card) => (
-            <Websitecards
-              className="web-card"
-              img={card.backgroundImgPath}
-              link={card.websiteLink}
-              about={card.aboutWebsite}
-              tech={card.technologies}
-              host={card.hosting}
-              flip={props.flip}
-            />
-          ))}
-        </div>
-      </>
-    );
+    if (!isMobile) {
+      return (
+        <>
+          <div className="category " id="latest-list-webcards">
+            {latestWebsites.map((card) => (
+              <Websitecards
+                className="web-card"
+                img={card.backgroundImgPath}
+                link={card.websiteLink}
+                about={card.aboutWebsite}
+                tech={card.technologies}
+                host={card.hosting}
+                flip={props.flip}
+              />
+            ))}
+          </div>
+        </>
+      );
+    } else {
+      return (
+        <>
+          <div>
+            <Carousel swipeable emulateTouch>
+              {latestWebsites.map((card) => (
+                <div className="carousel-drag">
+                  <Websitecards
+                    className="carousel-web-card"
+                    img={card.backgroundImgPath}
+                    link={card.websiteLink}
+                    about={card.aboutWebsite}
+                    tech={card.technologies}
+                    host={card.hosting}
+                    flip={props.flip}
+                  />
+                </div>
+              ))}
+            </Carousel>
+          </div>
+        </>
+      );
+    }
   } else if (activeCategory == "restaurant-list") {
     return (
       <>

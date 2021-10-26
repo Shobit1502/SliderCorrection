@@ -1,5 +1,6 @@
 export const latestWebsites = [
   {
+    id: "1",
     backgroundImgPath: `/assets/img/websites-portfolio/latest/AccountantABNCA-600.jpg`,
     websiteLink: "https://koyoaccountassistant.web.app/",
     aboutWebsite:
@@ -8,6 +9,7 @@ export const latestWebsites = [
     hosting: "Delhi, India",
   },
   {
+    id: "2",
     backgroundImgPath: "/assets/img/websites-portfolio/latest/Legal01-600.jpg",
     websiteLink: "https://koyolegal01.web.app/",
     aboutWebsite:
@@ -16,6 +18,7 @@ export const latestWebsites = [
     hosting: "Delhi, India",
   },
   {
+    id: "3",
     backgroundImgPath:
       "/assets/img/websites-portfolio/latest/sevenColorsPrinting-600.jpg",
     websiteLink: "https://sevencolors-kss.web.app/",
@@ -25,6 +28,7 @@ export const latestWebsites = [
     hosting: "Delhi, India",
   },
   {
+    id: "4",
     backgroundImgPath:
       "/assets/img/websites-portfolio/latest/eCommerceHimalayanHealthFoods-600.jpg",
     websiteLink:
@@ -38,6 +42,7 @@ export const latestWebsites = [
 
 export const restaurantWebsites = [
   {
+    id: "",
     backgroundImgPath:
       "/assets/img/websites-portfolio/restaurant/brewCafe&WineFood-600.jpg",
     websiteLink: "https://brewcafewinebar-au.web.app",
@@ -47,6 +52,7 @@ export const restaurantWebsites = [
     hosting: "Delhi, India",
   },
   {
+    id: "",
     backgroundImgPath:
       "/assets/img/websites-portfolio/restaurant/desiFirangiFood-600.jpg",
     websiteLink: "https://desifirangifoods.web.app",
@@ -56,6 +62,7 @@ export const restaurantWebsites = [
     hosting: "Delhi, India",
   },
   {
+    id: "",
     backgroundImgPath:
       "/assets/img/websites-portfolio/restaurant/bFitFood-600.jpg",
     websiteLink: "https://bfit-qa.web.app",
@@ -65,6 +72,7 @@ export const restaurantWebsites = [
     hosting: "Delhi, India",
   },
   {
+    id: "",
     backgroundImgPath:
       "/assets/img/websites-portfolio/restaurant/YomaCakeyBakeyCake-600.jpg",
     websiteLink: "https://yomacakeybakey.web.app",
@@ -77,6 +85,7 @@ export const restaurantWebsites = [
 
 export const realEstateWebsites = [
   {
+    id: "",
     backgroundImgPath:
       "/assets/img/websites-portfolio/real-estate/RHERealEstate_600.jpg",
     websiteLink: "https://realestate-jk.web.app/",
@@ -89,6 +98,7 @@ export const realEstateWebsites = [
 
 export const NGOWebsites = [
   {
+    id: "",
     backgroundImgPath: "/assets/img/websites-portfolio/NGO/NGO-600.jpg",
     websiteLink: "https://ngo-website-tts.web.app/",
     aboutWebsite:
@@ -97,6 +107,7 @@ export const NGOWebsites = [
     hosting: "Delhi, India",
   },
   {
+    id: "",
     backgroundImgPath: "/assets/img/websites-portfolio/NGO/AnimalNGO-600.jpg",
     websiteLink: "https://samskrithi-goshala.web.app/",
     aboutWebsite:
@@ -108,6 +119,7 @@ export const NGOWebsites = [
 
 export const ecommerceWebsites = [
   {
+    id: "",
     backgroundImgPath:
       "/assets/img/websites-portfolio/e-commerce/socialMediaCrypto-600.jpg",
     websiteLink: "https://eka.network/",
@@ -117,6 +129,7 @@ export const ecommerceWebsites = [
     hosting: "Delhi, India",
   },
   {
+    id: "",
     backgroundImgPath:
       "/assets/img/websites-portfolio/e-commerce/eCommerceHimalayanHealthFoods-600.jpg",
     websiteLink: "https://grocery-website-tts.web.app/",
@@ -126,6 +139,7 @@ export const ecommerceWebsites = [
     hosting: "Delhi, India",
   },
   {
+    id: "",
     backgroundImgPath:
       "/assets/img/websites-portfolio/e-commerce/AnimalNGO-600.jpg",
     websiteLink: "https://samskrithi-goshala.web.app",
@@ -135,6 +149,7 @@ export const ecommerceWebsites = [
     hosting: "Delhi, India",
   },
   {
+    id: "",
     backgroundImgPath:
       "/assets/img/websites-portfolio/e-commerce/play&LearneCommerce-600.jpg",
     websiteLink: "#",
@@ -149,6 +164,7 @@ export const petCareWebsites = [];
 
 export const professionalWebsites = [
   {
+    id: "",
     backgroundImgPath:
       "/assets/img/websites-portfolio/professional/Legal01-600.jpg",
     websiteLink: "https://koyolegal01.web.app/",
@@ -158,6 +174,7 @@ export const professionalWebsites = [
     hosting: "Delhi, India",
   },
   {
+    id: "",
     backgroundImgPath:
       "/assets/img/websites-portfolio/professional/Legal02-600.jpg",
     websiteLink: "https://koyolegal01.web.app/",
@@ -167,6 +184,7 @@ export const professionalWebsites = [
     hosting: "Delhi, India",
   },
   {
+    id: "",
     backgroundImgPath:
       "/assets/img/websites-portfolio/professional/AccountantABNCA-600.jpg",
     websiteLink: "https://koyoaccountassistant.web.app/",
@@ -179,6 +197,7 @@ export const professionalWebsites = [
 
 export const smeWebsites = [
   {
+    id: "",
     backgroundImgPath:
       "/assets/img/websites-portfolio/sme/sevenColorsPrinting-600.jpg",
     websiteLink: "https://sevencolors-kss.web.app/",

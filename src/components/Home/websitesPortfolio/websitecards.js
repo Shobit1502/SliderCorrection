@@ -62,21 +62,33 @@ function Websitecards(props) {
             {props.host}
             <br />
             <b>Find Out More: </b>
-            <a className="contact-link">
+            <a
+              className="contact-link"
+              href=" https://api.whatsapp.com/send/?phone=+91 98679 10690&text&app_absent=0"
+              target="_blank"
+            >
               <img
                 className="contactpic"
                 src={`/assets/img/websites-portfolio/icons/whatsapp.svg`}
                 alt=""
               />
             </a>{" "}
-            <a className="contact-link">
+            <a
+              className="contact-link"
+              href=" https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=KoyoSoftwareSolutions@gmail.com#"
+              target="_blank"
+            >
               <img
                 className="contactpic"
                 src={`/assets/img/websites-portfolio/icons/email.svg`}
                 alt=""
               />
             </a>{" "}
-            <a className="contact-link">
+            <a
+              className="contact-link"
+              href="tel:+919867910690"
+              target="_blank"
+            >
               <img
                 className="contactpic"
                 src={`/assets/img/websites-portfolio/icons/output-onlinepngtools.png`}
