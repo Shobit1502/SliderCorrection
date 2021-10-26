@@ -8,11 +8,15 @@ import { AiFillCaretLeft } from "react-icons/ai";
 import { AiFillCaretRight } from "react-icons/ai";
 // import ApplicationModal from "./ApplicationModal";
 import InputSkills from "./InputSkills";
+import { useMemo } from "react";
 
 function Jobs(props) {
   // Add all the filters for level 1 and level 2 here
-  let filter1 = ["Permanent", "Internship"];
-  let filter2 = ["Web Design", "Graphics", "Robotics", "AI & ML"];
+  let filter1 = useMemo(() => ["Permanent", "Internship"], []);
+  let filter2 = useMemo(
+    () => ["Web Design", "Graphics", "Robotics", "AI & ML"],
+    []
+  );
   const [Worktype, setWorktype] = useState(filter1[0]);
   const [Workcategory, setWorkcategory] = useState(filter2[0]);
   // here
@@ -158,13 +162,13 @@ function Jobs(props) {
     setErr(ee);
     setErrEmail(ef);
     setApplicationDetails({ ...applicationDetails, [name]: value });
-
+    let s;
     if (name === "available_inhours" || name === "available_inmonths") {
-      var s = JSON.parse(sessionStorage.getItem(applicationDetails.jobID));
+      s = JSON.parse(sessionStorage.getItem(applicationDetails.jobID));
       s[name] = value;
       sessionStorage.setItem(applicationDetails.jobID, JSON.stringify(s));
     } else {
-      var s = JSON.parse(localStorage.getItem(applicationDetails.jobID));
+      s = JSON.parse(localStorage.getItem(applicationDetails.jobID));
       s[name] = value;
       localStorage.setItem(applicationDetails.jobID, JSON.stringify(s));
     }
@@ -282,12 +286,10 @@ function Jobs(props) {
       </h1>
     </div>
   );
-  let jobopenings = Jobdata.map((job, index) => {
-    if (
-      job.jobFilterLevel1 == Worktype &&
-      job.jobFilterLevel2 == Workcategory
-    ) {
-      return (
+  let jobopenings = Jobdata.map(
+    (job, index) =>
+      job.jobFilterLevel1 === Worktype &&
+      job.jobFilterLevel2 === Workcategory && (
         <Job
           openForm={openForm}
           id={job.appID}
@@ -305,10 +307,10 @@ function Jobs(props) {
           projecttitle={job.projecttitle}
           isService={props.isService}
           pdf={job.pdf}
+          key={job.appID}
         />
-      );
-    }
-  });
+      )
+  );
   return (
     <>
       <Modal
@@ -571,7 +573,7 @@ function Jobs(props) {
                   name="applicantname"
                   className={
                     applicationDetails.applicantname === "" &&
-                    blinks.name == true
+                    blinks.name === true
                       ? "form-control form-control-sm border border-danger highlight-item"
                       : "form-control form-control-sm border border-danger"
                   }
@@ -591,7 +593,7 @@ function Jobs(props) {
                   name="applicantemail"
                   className={
                     applicationDetails.applicantemail === "" &&
-                    blinks.email == true
+                    blinks.email === true
                       ? "form-control form-control-sm border border-danger highlight-item"
                       : "form-control form-control-sm border border-danger"
                   }
@@ -614,7 +616,7 @@ function Jobs(props) {
                   name="available_inhours"
                   className={
                     applicationDetails.available_inhours === "" &&
-                    blinks.availability == true
+                    blinks.availability === true
                       ? "form-control form-control-sm border border-danger highlight-item selectpicker"
                       : "form-control form-control-sm border border-danger selectpicker"
                   }
@@ -641,7 +643,7 @@ function Jobs(props) {
                   name="available_inmonths"
                   className={
                     applicationDetails.available_inmonths === "" &&
-                    blinks.period == true
+                    blinks.period === true
                       ? "form-control form-control-sm border border-danger highlight-item selectpicker"
                       : "form-control form-control-sm border border-danger selectpicker"
                   }
@@ -676,7 +678,7 @@ function Jobs(props) {
             <select
               name="skill1"
               className={
-                applicationDetails.skill1 === "" && blinks.skill1 == true
+                applicationDetails.skill1 === "" && blinks.skill1 === true
                   ? "form-control form-control-sm border border-danger highlight-item selectpicker"
                   : "form-control form-control-sm border border-danger selectpicker"
               }
@@ -702,7 +704,7 @@ function Jobs(props) {
             <select
               name="skill2"
               className={
-                applicationDetails.skill2 === "" && blinks.skill2 == true
+                applicationDetails.skill2 === "" && blinks.skill2 === true
                   ? "form-control form-control-sm border border-danger highlight-item selectpicker"
                   : "form-control form-control-sm border border-danger selectpicker"
               }
@@ -728,7 +730,7 @@ function Jobs(props) {
             <select
               name="skill3"
               className={
-                applicationDetails.skill3 === "" && blinks.skill3 == true
+                applicationDetails.skill3 === "" && blinks.skill3 === true
                   ? "form-control form-control-sm border border-danger highlight-item selectpicker"
                   : "form-control form-control-sm border border-danger selectpicker"
               }
@@ -754,7 +756,7 @@ function Jobs(props) {
             <select
               name="skill4"
               className={
-                applicationDetails.skill4 === "" && blinks.skill4 == true
+                applicationDetails.skill4 === "" && blinks.skill4 === true
                   ? "form-control form-control-sm border border-danger highlight-item selectpicker"
                   : "form-control form-control-sm border border-danger selectpicker"
               }
@@ -804,15 +806,15 @@ function Jobs(props) {
 
             <div
               style={{ width: "90%" }}
-              class="row filters filters1 categoryone mx-2"
+              className="row filters filters1 categoryone mx-2"
             >
               <div
-                class="ui-group mx-auto d-flex justify-content-center"
+                className="ui-group mx-auto d-flex justify-content-center"
                 id="cat__one"
               >
                 <div
                   ref={filterscroller1}
-                  class="button-group"
+                  className="button-group"
                   style={{ overflowX: "auto" }}
                   id="categoryone"
                   data-filter-group="color"
@@ -854,12 +856,12 @@ function Jobs(props) {
 
             <div
               style={{ width: "90%" }}
-              class="row filters d-flex justify-content-center filters2 categorytwo mx-2"
+              className="row filters d-flex justify-content-center filters2 categorytwo mx-2"
             >
               <div
                 ref={filterscroller2}
                 style={{ overflowX: "auto", width: "unset" }}
-                class="button-group "
+                className="button-group "
                 id="categorytwo"
                 data-filter-group="size"
               >

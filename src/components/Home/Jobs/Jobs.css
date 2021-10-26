@@ -402,7 +402,8 @@ button[type="submit"]:hover {
 .video-play-button {
   position: absolute;
   z-index: 10;
-  bottom: 32%;
+  bottom: 0;
+  top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   box-sizing: content-box;
@@ -526,16 +527,16 @@ button[type="submit"]:hover {
 
 .carousel-control-prev-icon {
   position: absolute;
-  left: 140%;
+  left: 10%;
 }
 .carousel-control-next-icon {
   position: absolute;
-  right: 140%;
+  right: 10%;
 }
 .curimage {
   height: auto;
   position: relative;
-  width: 60%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -607,7 +608,7 @@ button[type="submit"]:hover {
   background: #fff;
   border-radius: 8px;
   padding: 1.5%;
-  height: 95%;
+  height: 83vh;
   overflow-y: scroll;
   overflow-x: hidden;
 }
@@ -849,7 +850,8 @@ body {
   .video-play-button {
     position: absolute;
     z-index: 10;
-    bottom: 32%;
+    bottom: 0;
+    top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     box-sizing: content-box;
@@ -1099,7 +1101,8 @@ body {
   .video-play-button {
     position: absolute;
     z-index: 10;
-    bottom: 32%;
+    bottom: 0;
+    top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     box-sizing: content-box;
@@ -1177,9 +1180,9 @@ body {
   }
 
   .curimage {
-    margin-top: 10px;
-    height: 163px;
-    width: 290px;
+    /* margin-top: 10px; */
+    height: auto;
+    width: 100%;
   }
 
   .projkey {

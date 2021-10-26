@@ -8,6 +8,8 @@ import { GoChevronDown } from "react-icons/go";
 import { GoChevronUp } from "react-icons/go";
 import "./modal-video.scss";
 
+Modal.setAppElement("#root");
+
 function Job(props) {
   const [modalIsOpen4, setIsOpen4] = useState(null);
   const [cururl, setcururl] = useState("");
@@ -98,7 +100,7 @@ function Job(props) {
       </div>
       <div className="videomodal">
         <Modal
-          isOpen={modalIsOpen4 == props.index}
+          isOpen={modalIsOpen4 === props.index}
           onRequestClose={closeModal4}
           style={customStyles}
           contentLabel="Example Modal4"
@@ -119,7 +121,12 @@ function Job(props) {
           >
             <div className="carousel-inner">
               {props.videos.map((e, index) => (
-                <div className={`carousel-item${index == 0 ? " active" : ""}`}>
+                <div
+                  className={`carousel-item${
+                    index === 0 ? " active" : ""
+                  } position-relative`}
+                  key={`e.videourl_${index}`}
+                >
                   {e.picture && (
                     <img
                       className="d-block  curimage  "
@@ -145,7 +152,7 @@ function Job(props) {
               ))}
             </div>
             <button
-              class="carousel-control-prev"
+              className="carousel-control-prev"
               type="button"
               data-bs-target="#carouselExampleControls"
               data-bs-slide="prev"
@@ -154,19 +161,19 @@ function Job(props) {
                 className="carousel-control-prev-icon"
                 aria-hidden="true"
               ></span>
-              <span class="visually-hidden">Previous</span>
+              <span className="visually-hidden">Previous</span>
             </button>
             <button
-              class="carousel-control-next"
+              className="carousel-control-next"
               type="button"
               data-bs-target="#carouselExampleControls"
               data-bs-slide="next"
             >
               <span
-                class="carousel-control-next-icon"
+                className="carousel-control-next-icon"
                 aria-hidden="true"
               ></span>
-              <span class="visually-hidden">Next</span>
+              <span className="visually-hidden">Next</span>
             </button>
           </div>
 
