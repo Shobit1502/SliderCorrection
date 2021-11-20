@@ -1,12 +1,12 @@
 # Few Dev Guide
 
-1) Look in App.css for global css style class
+1. Look in App.css for global css style class
 
-2) Follow comments
+2. Follow comments
 
-3) icons folder contains svg icons, add new icons there
+3. icons folder contains svg icons, add new icons there
 
-4) try using absolute paths while importing components -> follow jsconfig.json file
+4. try using absolute paths while importing components -> follow jsconfig.json file
 
 # Getting Started with Create React App
 

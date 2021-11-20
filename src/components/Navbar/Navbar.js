@@ -29,6 +29,7 @@ export default function Navbar() {
           <img
             className={"navbar-logo"}
             src="assets/img/navbar/koyo-logo.png"
+            alt="Logo"
           />
 
           {/* UPDATE HASH LINKS HERE IN FUTURE */}
@@ -62,6 +63,7 @@ export default function Navbar() {
           <a
             target={"_blank"}
             href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=KoyoSoftwareSolutions@gmail.com#"
+            rel="noreferrer"
           >
             <Email className={"navbar-icon"} />
           </a>

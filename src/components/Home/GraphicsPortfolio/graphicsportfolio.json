@@ -1,542 +1,541 @@
 {
-    "title": "DIGITAL ART PORTFOLIO",
-    "heading": "BRANDING SOLUTIONS",
-    "summary": "KSS is hiring! We are interested in passionate candidates who can bring their skills, creativity or experience and grow in a problem-solving environment.See the details below.",
-    "categories": {
-        "banner": {
-            "graphicsTitle": "Banner",
-            "items": [
-                {
-                    "name": "Apricot Jam",
-                    "desktopImg": "apricot-jam-desktop.jpg",
-                    "phoneImg": "apricot-jam-phone.jpg",
-                    "thumbnail": "apricot-jam-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Conchshell Grill ",
-                    "desktopImg": "conchshell-grill-desktop.jpg",
-                    "phoneImg": "conchshell-grill-phone.jpg",
-                    "thumbnail": "conchshell-grill-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Conchshell on Fire",
-                    "desktopImg": "conchshell-on-fire-desktop.jpg",
-                    "phoneImg": "conchshell-on-fire-phone.jpg",
-                    "thumbnail": "conchshell-on-fire-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Honeybee Heart",
-                    "desktopImg": "honeybee-heart-desktop.jpg",
-                    "phoneImg": "honeybee-heart-phone.jpg",
-                    "thumbnail": "honeybee-heart-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Honeybee Scroll ",
-                    "desktopImg": "honeybee-scroll-desktop.jpg",
-                    "phoneImg": "honeybee-scroll-phone.jpg",
-                    "thumbnail": "honeybee-scroll-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Honey Pot",
-                    "desktopImg": "honey-pot-desktop.jpg",
-                    "phoneImg": "honey-pot-phone.jpg",
-                    "thumbnail": "honey-pot-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "IT Services Firm",
-                    "desktopImg": "it-services-firm-desktop.jpg",
-                    "phoneImg": "it-services-firm-phone.jpg",
-                    "thumbnail": "it-services-firm-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Logo Ideas Platter",
-                    "desktopImg": "logo-ideas-platter-desktop.jpg",
-                    "phoneImg": "logo-ideas-platter-phone.jpg",
-                    "thumbnail": "logo-ideas-platter-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Walnut Bowls",
-                    "desktopImg": "walnut-bowls-desktop.jpg",
-                    "phoneImg": "walnut-bowls-phone.jpg",
-                    "thumbnail": "walnut-bowls-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Walnut Mountains",
-                    "desktopImg": "walnut-mountains-desktop.jpg",
-                    "phoneImg": "walnut-mountains-phone.jpg",
-                    "thumbnail": "walnut-mountains-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Walnut Oil",
-                    "desktopImg": "walnut-oil-desktop.jpg",
-                    "phoneImg": "walnut-oil-phone.jpg",
-                    "thumbnail": "walnut-oil-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Walnut on Wood ",
-                    "desktopImg": "walnut-on-wood-desktop.jpg",
-                    "phoneImg": "walnut-on-wood-phone.jpg",
-                    "thumbnail": "walnut-on-wood-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                }
-            ]
+  "title": "DIGITAL ART PORTFOLIO",
+  "heading": "BRANDING SOLUTIONS",
+  "summary": "KSS is hiring! We are interested in passionate candidates who can bring their skills, creativity or experience and grow in a problem-solving environment.See the details below.",
+  "categories": {
+    "banner": {
+      "graphicsTitle": "Banner",
+      "items": [
+        {
+          "name": "Apricot Jam",
+          "desktopImg": "apricot-jam-desktop.jpg",
+          "phoneImg": "apricot-jam-phone.jpg",
+          "thumbnail": "apricot-jam-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
         },
-        "brochure": {
-            "graphicsTitle": "Brochure",
-            "items": [
-                {
-                    "name": "GeM Saral Brochure",
-                    "desktopImg": "gem-saral-brochure-desktop.jpg",
-                    "phoneImg": "gem-saral-brochure-phone.jpg",
-                    "thumbnail": "gem-saral-brochure-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Khardungla Icecream A4 Menu",
-                    "desktopImg": "khardungla-icecream-a4-menu-desktop.jpg",
-                    "phoneImg": "khardungla-icecream-a4-menu-phone.jpg",
-                    "thumbnail": "khardungla-icecream-a4-menu-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Khardungla Icecream Menu Mockup",
-                    "desktopImg": "khardungla-icecream-menu-mockup-desktop.jpg",
-                    "phoneImg": "khardungla-icecream-menu-mockup-phone.jpg",
-                    "thumbnail": "khardungla-icecream-menu-mockup-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Khardungla Icecream Trifold Menu",
-                    "desktopImg": "khardungla-icecream-trifold-menu-desktop.jpg",
-                    "phoneImg": "khardungla-icecream-trifold-menu-phone.jpg",
-                    "thumbnail": "khardungla-icecream-trifold-menu-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Kungfu Grabs Chinese Menu",
-                    "desktopImg": "kungfu-grabs-chinese-menu-desktop.jpg",
-                    "phoneImg": "kungfu-grabs-chinese-menu-phone.jpg",
-                    "thumbnail": "kungfu-grabs-chinese-menu-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Kungfu Grabs Chinese Menu Mockup",
-                    "desktopImg": "kungfu-grabs-chinese-menu-mockup-desktop.jpg",
-                    "phoneImg": "kungfu-grabs-chinese-menu-mockup-phone.jpg",
-                    "thumbnail": "kungfu-grabs-chinese-menu-mockup-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Merchandize Printing Brochure",
-                    "desktopImg": "merchandiz-e-printing-brochure-desktop.jpg",
-                    "phoneImg": "merchandiz-e-printing-brochure-phone.jpg",
-                    "thumbnail": "merchandiz-e-printing-brochure-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Pet Grooming A2 Service Card ",
-                    "desktopImg": "pet-grooming-a2-service-card-desktop.jpg",
-                    "phoneImg": "pet-grooming-a2-service-card-phone.jpg",
-                    "thumbnail": "pet-grooming-a2-service-card-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Pet Grooming A4 Service Card",
-                    "desktopImg": "pet-grooming-a4-service-card-desktop.jpg",
-                    "phoneImg": "pet-grooming-a4-service-card-phone.jpg",
-                    "thumbnail": "pet-grooming-a4-service-card-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Pet Grooming Bifold Service Card",
-                    "desktopImg": "pet-grooming-bifold-service-card-desktop.jpg",
-                    "phoneImg": "pet-grooming-bifold-service-card-phone.jpg",
-                    "thumbnail": "pet-grooming-bifold-service-card-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Pet Grooming Trifold Service Card",
-                    "desktopImg": "pet-grooming-trifold-service-card-desktop.jpg",
-                    "phoneImg": "pet-grooming-trifold-service-card-phone.jpg",
-                    "thumbnail": "pet-grooming-trifold-service-card-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Signage  Banner Printing Brochure",
-                    "desktopImg": "signage-banner-printing-brochure-desktop.jpg",
-                    "phoneImg": "signage-banner-printing-brochure-phone.jpg",
-                    "thumbnail": "signage-banner-printing-brochure-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                }
-            ]
+        {
+          "name": "Conchshell Grill ",
+          "desktopImg": "conchshell-grill-desktop.jpg",
+          "phoneImg": "conchshell-grill-phone.jpg",
+          "thumbnail": "conchshell-grill-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
         },
-        "logo": {
-            "graphicsTitle": "Logo",
-            "items": [
-                {
-                    "name": "Accountant Logo",
-                    "desktopImg": "accountant-logo-desktop.jpg",
-                    "phoneImg": "accountant-logo-phone.jpg",
-                    "thumbnail": "accountant-logo-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Fabrication Company",
-                    "desktopImg": "fabrication-company-logo-desktop.jpg",
-                    "phoneImg": "fabrication-company-logo-phone.jpg",
-                    "thumbnail": "fabrication-company-logo-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "GeM Consultants",
-                    "desktopImg": "gem-consultants-logo-desktop.jpg",
-                    "phoneImg": "gem-consultants-logo-phone.jpg",
-                    "thumbnail": "gem-consultants-logo-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Himalayan Health Foods",
-                    "desktopImg": "himalayan-health-foods-logo-desktop.jpg",
-                    "phoneImg": "himalayan-health-foods-logo-phone.jpg",
-                    "thumbnail": "himalayan-health-foods-logo-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Indian Restaurant",
-                    "desktopImg": "indian-resturant-logo-desktop.jpg",
-                    "phoneImg": "indian-resturant-logo-phone.jpg",
-                    "thumbnail": "indian-resturant-logo-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "IT Firm",
-                    "desktopImg": "it-firm-logo-desktop.jpg",
-                    "phoneImg": "it-firm-logo-phone.jpg",
-                    "thumbnail": "it-firm-logo-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Organic Walnut Firm",
-                    "desktopImg": "organic-walnut-firm-logo-desktop.jpg",
-                    "phoneImg": "organic-walnut-firm-logo-phone.jpg",
-                    "thumbnail": "organic-walnut-firm-logo-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Pet Grooming Services",
-                    "desktopImg": "pet-grooming-services-logo-desktop.jpg",
-                    "phoneImg": "pet-grooming-services-logo-phone.jpg",
-                    "thumbnail": "pet-grooming-services-logo-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Printing Firm",
-                    "desktopImg": "printing-firm-logo-desktop.jpg",
-                    "phoneImg": "printing-firm-logo-phone.jpg",
-                    "thumbnail": "printing-firm-logo-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Real Estate",
-                    "desktopImg": "real-estate-logo-desktop.jpg",
-                    "phoneImg": "real-estate-logo-phone.jpg",
-                    "thumbnail": "real-estate-logo-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Walnut Oil Firm",
-                    "desktopImg": "walnut-oil-firm-logo-desktop.jpg",
-                    "phoneImg": "walnut-oil-firm-logo-phone.jpg",
-                    "thumbnail": "walnut-oil-firm-logo-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Walnut Trading Comany",
-                    "desktopImg": "walnut-trading-company-logo-desktop.jpg",
-                    "phoneImg": "walnut-trading-company-logo-phone.jpg",
-                    "thumbnail": "walnut-trading-company-logo-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                }
-            ]
+        {
+          "name": "Conchshell on Fire",
+          "desktopImg": "conchshell-on-fire-desktop.jpg",
+          "phoneImg": "conchshell-on-fire-phone.jpg",
+          "thumbnail": "conchshell-on-fire-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
         },
-        "merchandise_art" : {
-            "graphicsTitle" : "Merchandise Art",
-            "items" : [
-                {
-                    "name": "Accounting Firm MousePad",
-                    "desktopImg": "accounting-firm-mousepad-desktop.jpg",
-                    "phoneImg": "accounting-firm-mousepad-phone.jpg",
-                    "thumbnail": "accounting-firm-mousepad-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Accounting Firm StressBall",
-                    "desktopImg": "accounting-firm-stress-ball-desktop.jpg",
-                    "phoneImg": "accounting-firm-stress-ball-phone.jpg",
-                    "thumbnail": "accounting-firm-stress-ball-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Pet Grooming Firm Badge",
-                    "desktopImg": "pet-grooming-firm-badge-desktop.jpg",
-                    "phoneImg": "pet-grooming-firm-badge-phone.jpg",
-                    "thumbnail": "pet-grooming-firm-badge-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Pet Grooming Firm Cap",
-                    "desktopImg": "pet-grooming-firm-cap-desktop.jpg",
-                    "phoneImg": "pet-grooming-firm-cap-phone.jpg",
-                    "thumbnail": "pet-grooming-firm-cap-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Pet Grooming Firm",
-                    "desktopImg": "pet-grooming-firm-desktop.jpg",
-                    "phoneImg": "pet-grooming-firm-phone.jpg",
-                    "thumbnail": "pet-grooming-firm-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Pet Grooming Firm Diary",
-                    "desktopImg": "pet-grooming-firm-diary-desktop.jpg",
-                    "phoneImg": "pet-grooming-firm-diary-phone.jpg",
-                    "thumbnail": "pet-grooming-firm-diary-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Pet Grooming Firm Letterhead",
-                    "desktopImg": "pet-grooming-firm-letterhead-desktop.jpg",
-                    "phoneImg": "pet-grooming-firm-letterhead-phone.jpg",
-                    "thumbnail": "pet-grooming-firm-letterhead-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Pet Grooming Firm Letterpad",
-                    "desktopImg": "pet-grooming-firm-letterpad-desktop.jpg",
-                    "phoneImg": "pet-grooming-firm-letterpad-phone.jpg",
-                    "thumbnail": "pet-grooming-firm-letterpad-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Pet Grooming Firm Mug",
-                    "desktopImg": "pet-grooming-firm-mug-desktop.jpg",
-                    "phoneImg": "pet-grooming-firm-mug-phone.jpg",
-                    "thumbnail": "pet-grooming-firm-mug-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Pet Grooming Firm Postit",
-                    "desktopImg": "pet-grooming-firm-postit-desktop.jpg",
-                    "phoneImg": "pet-grooming-firm-postit-phone.jpg",
-                    "thumbnail": "pet-grooming-firm-postit-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Pet Grooming Firm Tshirt",
-                    "desktopImg": "pet-grooming-firm-tshirt-desktop.jpg",
-                    "phoneImg": "pet-grooming-firm-tshirt-phone.jpg",
-                    "thumbnail": "pet-grooming-firm-tshirt-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Restaurant Badge",
-                    "desktopImg": "restaurant-badge-desktop.jpg",
-                    "phoneImg": "restaurant-badge-phone.jpg",
-                    "thumbnail": "restaurant-badge-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                }
-            ]
+        {
+          "name": "Honeybee Heart",
+          "desktopImg": "honeybee-heart-desktop.jpg",
+          "phoneImg": "honeybee-heart-phone.jpg",
+          "thumbnail": "honeybee-heart-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
         },
-        "vehicle_vinyl_wrap" : {
-            "graphicsTitle" : "Vehicle Vinyl Wrap",
-            "items" : [
-                {
-                    "name": "Food Truck Bengaluru Street Food",
-                    "desktopImg": "food-truck-bengaluru-street-food-desktop.jpg",
-                    "phoneImg": "food-truck-bengaluru-street-food-phone.jpg",
-                    "thumbnail": "food-truck-bengaluru-street-food-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Food Truck Chinese",
-                    "desktopImg": "food-truck-desktop.jpg",
-                    "phoneImg": "food-truck-phone.jpg",
-                    "thumbnail": "food-truck-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Food Truck Icecream",
-                    "desktopImg": "food-truck-icecream-desktop.jpg",
-                    "phoneImg": "food-truck-icecream-phone.jpg",
-                    "thumbnail": "food-truck-icecream-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Food Truck Pinnochio Pizza",
-                    "desktopImg": "food-truck-pinnochio-desktop.jpg",
-                    "phoneImg": "food-truck-pinnochio-phone.jpg",
-                    "thumbnail": "food-truck-pinnochio-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Food Truck Thai Food Delights",
-                    "desktopImg": "food-truck-thai-food-delights-desktop.jpg",
-                    "phoneImg": "food-truck-thai-food-delights-phone.jpg",
-                    "thumbnail": "food-truck-thai-food-delights-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Food Truck Yoma's Cakey Bakey",
-                    "desktopImg": "food-truck-yomas-cakey-bakey-desktop.jpg",
-                    "phoneImg": "food-truck-yomas-cakey-bakey-phone.jpg",
-                    "thumbnail": "food-truck-yomas-cakey-bakey-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Pet Grooming Van Back Black",
-                    "desktopImg": "pet-grooming-van-back-black-desktop.jpg",
-                    "phoneImg": "pet-grooming-van-back-black-phone.jpg",
-                    "thumbnail": "pet-grooming-van-back-black-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Pet Grooming Van Back Pink",
-                    "desktopImg": "pet-grooming-van-back-pink-desktop.jpg",
-                    "phoneImg": "pet-grooming-van-back-pink-phone.jpg",
-                    "thumbnail": "pet-grooming-van-back-pink-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Pet Grooming Van Side1 Pink",
-                    "desktopImg": "pet-grooming-van-side1-pink-desktop.jpg",
-                    "phoneImg": "pet-grooming-van-side1-pink-phone.jpg",
-                    "thumbnail": "pet-grooming-van-side1-pink-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Pet Grooming Van Side1 Rose",
-                    "desktopImg": "pet-grooming-van-side1-rose-desktop.jpg",
-                    "phoneImg": "pet-grooming-van-side1-rose-phone.jpg",
-                    "thumbnail": "pet-grooming-van-side1-rose-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Pet Grooming Van Side2 Pink",
-                    "desktopImg": "pet-grooming-van-side2-pink-desktop.jpg",
-                    "phoneImg": "pet-grooming-van-side2-pink-phone.jpg",
-                    "thumbnail": "pet-grooming-van-side2-pink-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Pet Grooming Van Side2 Rose",
-                    "desktopImg": "pet-grooming-van-side2-rose-desktop.jpg",
-                    "phoneImg": "pet-grooming-van-side2-rose-phone.jpg",
-                    "thumbnail": "pet-grooming-van-side2-rose-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                }
-            ]
+        {
+          "name": "Honeybee Scroll ",
+          "desktopImg": "honeybee-scroll-desktop.jpg",
+          "phoneImg": "honeybee-scroll-phone.jpg",
+          "thumbnail": "honeybee-scroll-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
         },
-        "miscellaneous" : {
-            "graphicsTitle" : "Miscellaneous",
-            "items" : [
-                {
-                    "name": "Aluminum Signage",
-                    "desktopImg": "aluminum-signage-desktop.jpg",
-                    "phoneImg": "aluminum-signage-phone.jpg",
-                    "thumbnail": "aluminum-signage-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Building Projection Art",
-                    "desktopImg": "building-projection-art-desktop.jpg",
-                    "phoneImg": "building-projection-art-phone.jpg",
-                    "thumbnail": "building-projection-art-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Construction Firm Web Card",
-                    "desktopImg": "construction-firm-web-card-desktop.jpg",
-                    "phoneImg": "construction-firm-web-card-phone.jpg",
-                    "thumbnail": "construction-firm-web-card-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Hindi Typography",
-                    "desktopImg": "hindi-typography-desktop.jpg",
-                    "phoneImg": "hindi-typography-phone.jpg",
-                    "thumbnail": "hindi-typography-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Indoor Neon Light Signage",
-                    "desktopImg": "indoor-neon-light-signage-desktop.jpg",
-                    "phoneImg": "indoor-neon-light-signage-phone.jpg",
-                    "thumbnail": "indoor-neon-light-signage-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Office Space Milky Glass Effect",
-                    "desktopImg": "office-space-milky-glass-effect-desktop.jpg",
-                    "phoneImg": "office-space-milky-glass-effect-phone.jpg",
-                    "thumbnail": "office-space-milky-glass-effect-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Ramadan Busienss Card",
-                    "desktopImg": "ramadan-business-card-desktop.jpg",
-                    "phoneImg": "ramadan-business-card-phone.jpg",
-                    "thumbnail": "ramadan-business-card-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Real Estate Agency Web Card",
-                    "desktopImg": "real-estate-agency-web-card-desktop.jpg",
-                    "phoneImg": "real-estate-agency-web-card-phone.jpg",
-                    "thumbnail": "real-estate-agency-web-card-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Typography with Fluid Effects",
-                    "desktopImg": "typography-with-fluid-effects-desktop.jpg",
-                    "phoneImg": "typography-with-fluid-effects-phone.jpg",
-                    "thumbnail": "typography-with-fluid-effects-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Walnut Packaging Mockup",
-                    "desktopImg": "walnut-packaging-mockup-desktop.jpg",
-                    "phoneImg": "walnut-packaging-mockup-phone.jpg",
-                    "thumbnail": "walnut-packaging-mockup-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Window Decal01",
-                    "desktopImg": "window-decal01-desktop.jpg",
-                    "phoneImg": "window-decal01-phone.jpg",
-                    "thumbnail": "window-decal01-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                },
-                {
-                    "name": "Window Decal02",
-                    "desktopImg": "window-decal02-desktop.jpg",
-                    "phoneImg": "window-decal02-phone.jpg",
-                    "thumbnail": "window-decal02-thumbnail.jpg",
-                    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-                }
-            ]
+        {
+          "name": "Honey Pot",
+          "desktopImg": "honey-pot-desktop.jpg",
+          "phoneImg": "honey-pot-phone.jpg",
+          "thumbnail": "honey-pot-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "IT Services Firm",
+          "desktopImg": "it-services-firm-desktop.jpg",
+          "phoneImg": "it-services-firm-phone.jpg",
+          "thumbnail": "it-services-firm-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Logo Ideas Platter",
+          "desktopImg": "logo-ideas-platter-desktop.jpg",
+          "phoneImg": "logo-ideas-platter-phone.jpg",
+          "thumbnail": "logo-ideas-platter-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Walnut Bowls",
+          "desktopImg": "walnut-bowls-desktop.jpg",
+          "phoneImg": "walnut-bowls-phone.jpg",
+          "thumbnail": "walnut-bowls-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Walnut Mountains",
+          "desktopImg": "walnut-mountains-desktop.jpg",
+          "phoneImg": "walnut-mountains-phone.jpg",
+          "thumbnail": "walnut-mountains-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Walnut Oil",
+          "desktopImg": "walnut-oil-desktop.jpg",
+          "phoneImg": "walnut-oil-phone.jpg",
+          "thumbnail": "walnut-oil-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Walnut on Wood ",
+          "desktopImg": "walnut-on-wood-desktop.jpg",
+          "phoneImg": "walnut-on-wood-phone.jpg",
+          "thumbnail": "walnut-on-wood-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
         }
-
+      ]
+    },
+    "brochure": {
+      "graphicsTitle": "Brochure",
+      "items": [
+        {
+          "name": "GeM Saral Brochure",
+          "desktopImg": "gem-saral-brochure-desktop.jpg",
+          "phoneImg": "gem-saral-brochure-phone.jpg",
+          "thumbnail": "gem-saral-brochure-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Khardungla Icecream A4 Menu",
+          "desktopImg": "khardungla-icecream-a4-menu-desktop.jpg",
+          "phoneImg": "khardungla-icecream-a4-menu-phone.jpg",
+          "thumbnail": "khardungla-icecream-a4-menu-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Khardungla Icecream Menu Mockup",
+          "desktopImg": "khardungla-icecream-menu-mockup-desktop.jpg",
+          "phoneImg": "khardungla-icecream-menu-mockup-phone.jpg",
+          "thumbnail": "khardungla-icecream-menu-mockup-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Khardungla Icecream Trifold Menu",
+          "desktopImg": "khardungla-icecream-trifold-menu-desktop.jpg",
+          "phoneImg": "khardungla-icecream-trifold-menu-phone.jpg",
+          "thumbnail": "khardungla-icecream-trifold-menu-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Kungfu Grabs Chinese Menu",
+          "desktopImg": "kungfu-grabs-chinese-menu-desktop.jpg",
+          "phoneImg": "kungfu-grabs-chinese-menu-phone.jpg",
+          "thumbnail": "kungfu-grabs-chinese-menu-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Kungfu Grabs Chinese Menu Mockup",
+          "desktopImg": "kungfu-grabs-chinese-menu-mockup-desktop.jpg",
+          "phoneImg": "kungfu-grabs-chinese-menu-mockup-phone.jpg",
+          "thumbnail": "kungfu-grabs-chinese-menu-mockup-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Merchandize Printing Brochure",
+          "desktopImg": "merchandiz-e-printing-brochure-desktop.jpg",
+          "phoneImg": "merchandiz-e-printing-brochure-phone.jpg",
+          "thumbnail": "merchandiz-e-printing-brochure-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Pet Grooming A2 Service Card ",
+          "desktopImg": "pet-grooming-a2-service-card-desktop.jpg",
+          "phoneImg": "pet-grooming-a2-service-card-phone.jpg",
+          "thumbnail": "pet-grooming-a2-service-card-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Pet Grooming A4 Service Card",
+          "desktopImg": "pet-grooming-a4-service-card-desktop.jpg",
+          "phoneImg": "pet-grooming-a4-service-card-phone.jpg",
+          "thumbnail": "pet-grooming-a4-service-card-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Pet Grooming Bifold Service Card",
+          "desktopImg": "pet-grooming-bifold-service-card-desktop.jpg",
+          "phoneImg": "pet-grooming-bifold-service-card-phone.jpg",
+          "thumbnail": "pet-grooming-bifold-service-card-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Pet Grooming Trifold Service Card",
+          "desktopImg": "pet-grooming-trifold-service-card-desktop.jpg",
+          "phoneImg": "pet-grooming-trifold-service-card-phone.jpg",
+          "thumbnail": "pet-grooming-trifold-service-card-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Signage  Banner Printing Brochure",
+          "desktopImg": "signage-banner-printing-brochure-desktop.jpg",
+          "phoneImg": "signage-banner-printing-brochure-phone.jpg",
+          "thumbnail": "signage-banner-printing-brochure-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        }
+      ]
+    },
+    "logo": {
+      "graphicsTitle": "Logo",
+      "items": [
+        {
+          "name": "Accountant Logo",
+          "desktopImg": "accountant-logo-desktop.jpg",
+          "phoneImg": "accountant-logo-phone.jpg",
+          "thumbnail": "accountant-logo-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Fabrication Company",
+          "desktopImg": "fabrication-company-logo-desktop.jpg",
+          "phoneImg": "fabrication-company-logo-phone.jpg",
+          "thumbnail": "fabrication-company-logo-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "GeM Consultants",
+          "desktopImg": "gem-consultants-logo-desktop.jpg",
+          "phoneImg": "gem-consultants-logo-phone.jpg",
+          "thumbnail": "gem-consultants-logo-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Himalayan Health Foods",
+          "desktopImg": "himalayan-health-foods-logo-desktop.jpg",
+          "phoneImg": "himalayan-health-foods-logo-phone.jpg",
+          "thumbnail": "himalayan-health-foods-logo-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Indian Restaurant",
+          "desktopImg": "indian-resturant-logo-desktop.jpg",
+          "phoneImg": "indian-resturant-logo-phone.jpg",
+          "thumbnail": "indian-resturant-logo-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "IT Firm",
+          "desktopImg": "it-firm-logo-desktop.jpg",
+          "phoneImg": "it-firm-logo-phone.jpg",
+          "thumbnail": "it-firm-logo-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Organic Walnut Firm",
+          "desktopImg": "organic-walnut-firm-logo-desktop.jpg",
+          "phoneImg": "organic-walnut-firm-logo-phone.jpg",
+          "thumbnail": "organic-walnut-firm-logo-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Pet Grooming Services",
+          "desktopImg": "pet-grooming-services-logo-desktop.jpg",
+          "phoneImg": "pet-grooming-services-logo-phone.jpg",
+          "thumbnail": "pet-grooming-services-logo-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Printing Firm",
+          "desktopImg": "printing-firm-logo-desktop.jpg",
+          "phoneImg": "printing-firm-logo-phone.jpg",
+          "thumbnail": "printing-firm-logo-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Real Estate",
+          "desktopImg": "real-estate-logo-desktop.jpg",
+          "phoneImg": "real-estate-logo-phone.jpg",
+          "thumbnail": "real-estate-logo-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Walnut Oil Firm",
+          "desktopImg": "walnut-oil-firm-logo-desktop.jpg",
+          "phoneImg": "walnut-oil-firm-logo-phone.jpg",
+          "thumbnail": "walnut-oil-firm-logo-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Walnut Trading Comany",
+          "desktopImg": "walnut-trading-company-logo-desktop.jpg",
+          "phoneImg": "walnut-trading-company-logo-phone.jpg",
+          "thumbnail": "walnut-trading-company-logo-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        }
+      ]
+    },
+    "merchandise_art": {
+      "graphicsTitle": "Merchandise Art",
+      "items": [
+        {
+          "name": "Accounting Firm MousePad",
+          "desktopImg": "accounting-firm-mousepad-desktop.jpg",
+          "phoneImg": "accounting-firm-mousepad-phone.jpg",
+          "thumbnail": "accounting-firm-mousepad-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Accounting Firm StressBall",
+          "desktopImg": "accounting-firm-stress-ball-desktop.jpg",
+          "phoneImg": "accounting-firm-stress-ball-phone.jpg",
+          "thumbnail": "accounting-firm-stress-ball-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Pet Grooming Firm Badge",
+          "desktopImg": "pet-grooming-firm-badge-desktop.jpg",
+          "phoneImg": "pet-grooming-firm-badge-phone.jpg",
+          "thumbnail": "pet-grooming-firm-badge-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Pet Grooming Firm Cap",
+          "desktopImg": "pet-grooming-firm-cap-desktop.jpg",
+          "phoneImg": "pet-grooming-firm-cap-phone.jpg",
+          "thumbnail": "pet-grooming-firm-cap-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Pet Grooming Firm",
+          "desktopImg": "pet-grooming-firm-desktop.jpg",
+          "phoneImg": "pet-grooming-firm-phone.jpg",
+          "thumbnail": "pet-grooming-firm-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Pet Grooming Firm Diary",
+          "desktopImg": "pet-grooming-firm-diary-desktop.jpg",
+          "phoneImg": "pet-grooming-firm-diary-phone.jpg",
+          "thumbnail": "pet-grooming-firm-diary-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Pet Grooming Firm Letterhead",
+          "desktopImg": "pet-grooming-firm-letterhead-desktop.jpg",
+          "phoneImg": "pet-grooming-firm-letterhead-phone.jpg",
+          "thumbnail": "pet-grooming-firm-letterhead-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Pet Grooming Firm Letterpad",
+          "desktopImg": "pet-grooming-firm-letterpad-desktop.jpg",
+          "phoneImg": "pet-grooming-firm-letterpad-phone.jpg",
+          "thumbnail": "pet-grooming-firm-letterpad-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Pet Grooming Firm Mug",
+          "desktopImg": "pet-grooming-firm-mug-desktop.jpg",
+          "phoneImg": "pet-grooming-firm-mug-phone.jpg",
+          "thumbnail": "pet-grooming-firm-mug-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Pet Grooming Firm Postit",
+          "desktopImg": "pet-grooming-firm-postit-desktop.jpg",
+          "phoneImg": "pet-grooming-firm-postit-phone.jpg",
+          "thumbnail": "pet-grooming-firm-postit-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Pet Grooming Firm Tshirt",
+          "desktopImg": "pet-grooming-firm-tshirt-desktop.jpg",
+          "phoneImg": "pet-grooming-firm-tshirt-phone.jpg",
+          "thumbnail": "pet-grooming-firm-tshirt-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Restaurant Badge",
+          "desktopImg": "restaurant-badge-desktop.jpg",
+          "phoneImg": "restaurant-badge-phone.jpg",
+          "thumbnail": "restaurant-badge-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        }
+      ]
+    },
+    "vehicle_vinyl_wrap": {
+      "graphicsTitle": "Vehicle Vinyl Wrap",
+      "items": [
+        {
+          "name": "Food Truck Bengaluru Street Food",
+          "desktopImg": "food-truck-bengaluru-street-food-desktop.jpg",
+          "phoneImg": "food-truck-bengaluru-street-food-phone.jpg",
+          "thumbnail": "food-truck-bengaluru-street-food-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Food Truck Chinese",
+          "desktopImg": "food-truck-desktop.jpg",
+          "phoneImg": "food-truck-phone.jpg",
+          "thumbnail": "food-truck-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Food Truck Icecream",
+          "desktopImg": "food-truck-icecream-desktop.jpg",
+          "phoneImg": "food-truck-icecream-phone.jpg",
+          "thumbnail": "food-truck-icecream-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Food Truck Pinnochio Pizza",
+          "desktopImg": "food-truck-pinnochio-desktop.jpg",
+          "phoneImg": "food-truck-pinnochio-phone.jpg",
+          "thumbnail": "food-truck-pinnochio-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Food Truck Thai Food Delights",
+          "desktopImg": "food-truck-thai-food-delights-desktop.jpg",
+          "phoneImg": "food-truck-thai-food-delights-phone.jpg",
+          "thumbnail": "food-truck-thai-food-delights-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Food Truck Yoma's Cakey Bakey",
+          "desktopImg": "food-truck-yomas-cakey-bakey-desktop.jpg",
+          "phoneImg": "food-truck-yomas-cakey-bakey-phone.jpg",
+          "thumbnail": "food-truck-yomas-cakey-bakey-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Pet Grooming Van Back Black",
+          "desktopImg": "pet-grooming-van-back-black-desktop.jpg",
+          "phoneImg": "pet-grooming-van-back-black-phone.jpg",
+          "thumbnail": "pet-grooming-van-back-black-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Pet Grooming Van Back Pink",
+          "desktopImg": "pet-grooming-van-back-pink-desktop.jpg",
+          "phoneImg": "pet-grooming-van-back-pink-phone.jpg",
+          "thumbnail": "pet-grooming-van-back-pink-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Pet Grooming Van Side1 Pink",
+          "desktopImg": "pet-grooming-van-side1-pink-desktop.jpg",
+          "phoneImg": "pet-grooming-van-side1-pink-phone.jpg",
+          "thumbnail": "pet-grooming-van-side1-pink-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Pet Grooming Van Side1 Rose",
+          "desktopImg": "pet-grooming-van-side1-rose-desktop.jpg",
+          "phoneImg": "pet-grooming-van-side1-rose-phone.jpg",
+          "thumbnail": "pet-grooming-van-side1-rose-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Pet Grooming Van Side2 Pink",
+          "desktopImg": "pet-grooming-van-side2-pink-desktop.jpg",
+          "phoneImg": "pet-grooming-van-side2-pink-phone.jpg",
+          "thumbnail": "pet-grooming-van-side2-pink-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Pet Grooming Van Side2 Rose",
+          "desktopImg": "pet-grooming-van-side2-rose-desktop.jpg",
+          "phoneImg": "pet-grooming-van-side2-rose-phone.jpg",
+          "thumbnail": "pet-grooming-van-side2-rose-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        }
+      ]
+    },
+    "miscellaneous": {
+      "graphicsTitle": "Miscellaneous",
+      "items": [
+        {
+          "name": "Aluminum Signage",
+          "desktopImg": "aluminum-signage-desktop.jpg",
+          "phoneImg": "aluminum-signage-phone.jpg",
+          "thumbnail": "aluminum-signage-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Building Projection Art",
+          "desktopImg": "building-projection-art-desktop.jpg",
+          "phoneImg": "building-projection-art-phone.jpg",
+          "thumbnail": "building-projection-art-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Construction Firm Web Card",
+          "desktopImg": "construction-firm-web-card-desktop.jpg",
+          "phoneImg": "construction-firm-web-card-phone.jpg",
+          "thumbnail": "construction-firm-web-card-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Hindi Typography",
+          "desktopImg": "hindi-typography-desktop.jpg",
+          "phoneImg": "hindi-typography-phone.jpg",
+          "thumbnail": "hindi-typography-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Indoor Neon Light Signage",
+          "desktopImg": "indoor-neon-light-signage-desktop.jpg",
+          "phoneImg": "indoor-neon-light-signage-phone.jpg",
+          "thumbnail": "indoor-neon-light-signage-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Office Space Milky Glass Effect",
+          "desktopImg": "office-space-milky-glass-effect-desktop.jpg",
+          "phoneImg": "office-space-milky-glass-effect-phone.jpg",
+          "thumbnail": "office-space-milky-glass-effect-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Ramadan Busienss Card",
+          "desktopImg": "ramadan-business-card-desktop.jpg",
+          "phoneImg": "ramadan-business-card-phone.jpg",
+          "thumbnail": "ramadan-business-card-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Real Estate Agency Web Card",
+          "desktopImg": "real-estate-agency-web-card-desktop.jpg",
+          "phoneImg": "real-estate-agency-web-card-phone.jpg",
+          "thumbnail": "real-estate-agency-web-card-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Typography with Fluid Effects",
+          "desktopImg": "typography-with-fluid-effects-desktop.jpg",
+          "phoneImg": "typography-with-fluid-effects-phone.jpg",
+          "thumbnail": "typography-with-fluid-effects-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Walnut Packaging Mockup",
+          "desktopImg": "walnut-packaging-mockup-desktop.jpg",
+          "phoneImg": "walnut-packaging-mockup-phone.jpg",
+          "thumbnail": "walnut-packaging-mockup-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Window Decal01",
+          "desktopImg": "window-decal01-desktop.jpg",
+          "phoneImg": "window-decal01-phone.jpg",
+          "thumbnail": "window-decal01-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+        {
+          "name": "Window Decal02",
+          "desktopImg": "window-decal02-desktop.jpg",
+          "phoneImg": "window-decal02-phone.jpg",
+          "thumbnail": "window-decal02-thumbnail.jpg",
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        }
+      ]
     }
+  }
 }

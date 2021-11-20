@@ -1,19 +1,22 @@
 {
-    "title" : "Koyo Software Solutions",
-    "subtitle" : "Problem Solvers. Bespoke Software Solutions Engineers",
-    "options" : [
-        {
-            "name" : "Web Design",
-            "image" : "assets/img/header/web-design.svg"
-        },{
-            "name" : "AI & ML",
-            "image" : "assets/img/header/ai&ml.svg"
-        },{
-            "name" : "Code & Learn",
-            "image" : "assets/img/header/code&learn.svg"
-        },{
-            "name" : "Branding Solutions",
-            "image" : "assets/img/header/branding-solutions.svg"
-        }
-    ]
+  "title": "Koyo Software Solutions",
+  "subtitle": "Problem Solvers. Bespoke Software Solutions Engineers",
+  "options": [
+    {
+      "name": "Web Design",
+      "image": "assets/img/header/web-design.svg"
+    },
+    {
+      "name": "AI & ML",
+      "image": "assets/img/header/ai&ml.svg"
+    },
+    {
+      "name": "Code & Learn",
+      "image": "assets/img/header/code&learn.svg"
+    },
+    {
+      "name": "Branding Solutions",
+      "image": "assets/img/header/branding-solutions.svg"
+    }
+  ]
 }

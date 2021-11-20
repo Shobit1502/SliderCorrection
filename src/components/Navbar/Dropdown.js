@@ -3,7 +3,7 @@ import { HashLink } from "react-router-hash-link";
 
 import "./Dropdown.css";
 
-export default function ({ closeSidebar }) {
+const Dropdown = ({ closeSidebar }) => {
   // flag to show or hide the dropdown
   const [isActive, toggleActive] = useState(false);
 
@@ -30,7 +30,7 @@ export default function ({ closeSidebar }) {
   return (
     <div onClick={(e) => e.stopPropagation()} className={"dropdown"}>
       <div className="dropdown-btn">
-        <a onClick={handleClick} className="dropdown-title">
+        <a onMouseEnter={handleClick} className="dropdown-title">
           Services
         </a>
       </div>
@@ -43,7 +43,7 @@ export default function ({ closeSidebar }) {
               handleClick();
             }}
             smooth
-            to="#graphicsportfolio"
+            to="#ourwebsites"
           >
             Web Design
           </HashLink>
@@ -87,4 +87,6 @@ export default function ({ closeSidebar }) {
       </ul>
     </div>
   );
-}
+};
+
+export default Dropdown;

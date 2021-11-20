@@ -1,65 +1,64 @@
+.header-section {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top;
+  overflow: hidden;
+}
+.header-container {
+  padding-top: 195px;
+  display: block;
+  text-align: center;
+  margin: 0px auto;
+}
 
-.header-section{
+.header-title-main {
+  font-size: 50px;
+  line-height: 64px;
+  padding: 0px;
+  margin: 0px;
+  font-weight: 700;
+  color: white;
+}
+.header-subtitle-main {
+  color: hsla(0, 0%, 100%, 0.9);
+  margin: 8px 0px 0px;
+  font-size: 23.19px;
+  font-weight: 400;
+}
+
+.header-options-main {
+  display: grid;
+  grid-template-columns: repeat(4, 160px);
+  justify-content: center;
+  margin-top: 70px;
+  gap: 25px;
+}
+
+@media only screen and (max-width: 900px) {
+  .header-container {
+    padding-top: 150px;
+  }
+  .header-section {
     height: 100vh;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-attachment: fixed;
-    background-position: top;
-    overflow: hidden;
-}
-.header-container{
-    padding-top: 195px;
-    display: block;
-    text-align: center;
-    margin: 0px auto;
-}
+    background-position: 70% 0%;
+  }
 
-.header-title-main{
-    font-size: 50px;
-    line-height: 64px;
-    padding: 0px;
-    margin: 0px;
-    font-weight: 700;
-    color: white;
+  .header-title-main {
+    font-size: 40px;
+    line-height: 42px;
+  }
+  .header-subtitle-main {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  .header-options-main {
+    grid-template-columns: repeat(2, 160px);
+  }
 }
-.header-subtitle-main{
-    color: hsla(0,0%,100%,.9);
-    margin: 8px 0px 0px;
-    font-size: 23.19px;
-    font-weight: 400;
-}
-
-.header-options-main{
-    display: grid;
-    grid-template-columns: repeat(4,160px);
-    justify-content: center;
-    margin-top: 70px;
-    gap: 25px;
-}
-
-@media only screen and (max-width: 900px){
-    .header-container{
-        padding-top: 150px;
-    }
-    .header-section{
-        height: 100vh;
-        background-position: 70% 0%;
-    }
-    
-    .header-title-main{
-        font-size: 40px;
-        line-height: 42px;
-    }
-    .header-subtitle-main{
-        font-size: 20px;
-        line-height: 22px;
-    }
-    .header-options-main{
-        grid-template-columns: repeat(2,160px);
-    }
-}
-@media only screen and (max-width: 600px){
-    .header-container{
-        padding-top: 100px;
-    }
+@media only screen and (max-width: 600px) {
+  .header-container {
+    padding-top: 100px;
+  }
 }
