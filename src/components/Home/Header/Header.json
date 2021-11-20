@@ -4,19 +4,23 @@
   "options": [
     {
       "name": "Web Design",
-      "image": "assets/img/header/web-design.svg"
+      "image": "assets/img/header/web-design.svg",
+      "id": "ourwebsites"
     },
     {
       "name": "AI & ML",
-      "image": "assets/img/header/ai&ml.svg"
+      "image": "assets/img/header/ai&ml.svg",
+      "id": null
     },
     {
       "name": "Code & Learn",
-      "image": "assets/img/header/code&learn.svg"
+      "image": "assets/img/header/code&learn.svg",
+      "id": null
     },
     {
       "name": "Branding Solutions",
-      "image": "assets/img/header/branding-solutions.svg"
+      "image": "assets/img/header/branding-solutions.svg",
+      "id": "graphicsportfolio"
     }
   ]
 }

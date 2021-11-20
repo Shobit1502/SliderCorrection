@@ -28,9 +28,13 @@ const Dropdown = ({ closeSidebar }) => {
   }
 
   return (
-    <div onClick={(e) => e.stopPropagation()} className={"dropdown"}>
+    <div
+      onClick={(e) => e.stopPropagation()}
+      className={"dropdown"}
+      onMouseLeave={() => toggleActive(false)}
+    >
       <div className="dropdown-btn">
-        <a onMouseEnter={handleClick} className="dropdown-title">
+        <a onMouseEnter={() => toggleActive(true)} className="dropdown-title">
           Services
         </a>
       </div>
@@ -43,7 +47,7 @@ const Dropdown = ({ closeSidebar }) => {
               handleClick();
             }}
             smooth
-            to="#ourwebsites"
+            to="/#ourwebsites"
           >
             Web Design
           </HashLink>
@@ -55,7 +59,7 @@ const Dropdown = ({ closeSidebar }) => {
               closeSidebar();
             }}
             smooth
-            to="#graphicsportfolio"
+            to="/#"
           >
             AI & ML
           </HashLink>
@@ -67,7 +71,7 @@ const Dropdown = ({ closeSidebar }) => {
               closeSidebar();
             }}
             smooth
-            to="#graphicsportfolio"
+            to="/#"
           >
             Code & Learn
           </HashLink>

@@ -5,7 +5,7 @@ import data from "./Header.json";
 
 import HeaderElement from "./HeaderElement";
 
-export default function ({ refProp }) {
+const Header = ({ refProp }) => {
   return (
     <section
       ref={refProp}
@@ -31,4 +31,6 @@ export default function ({ refProp }) {
       </div>
     </section>
   );
-}
+};
+
+export default Header;
