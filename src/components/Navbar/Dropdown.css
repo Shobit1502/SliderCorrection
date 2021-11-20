@@ -51,10 +51,10 @@
 .dropdown-menu.active li {
   display: block;
 }
-/* .dropdown-menu:hover {
+.dropdown-menu:hover {
   opacity: 1;
   transform: translateY(0);
-} */
+}
 
 .dropdown-menu li a {
   display: block;

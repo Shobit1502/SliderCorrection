@@ -31,10 +31,10 @@ export default function Dropdown({ closeSidebar }) {
     <div
       onClick={(e) => e.stopPropagation()}
       className={"dropdown"}
-      onMouseLeave={() => toggleActive(false)}
+      // onMouseLeave={() => toggleActive(false)}
     >
       <div className="dropdown-btn">
-        <a onMouseEnter={() => toggleActive(true)} className="dropdown-title">
+        <a onClick={handleClick} className="dropdown-title">
           Services
         </a>
       </div>
