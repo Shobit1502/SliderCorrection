@@ -3,7 +3,7 @@ import { HashLink } from "react-router-hash-link";
 
 import "./Dropdown.css";
 
-const Dropdown = ({ closeSidebar }) => {
+export default function Dropdown({ closeSidebar }) {
   // flag to show or hide the dropdown
   const [isActive, toggleActive] = useState(false);
 
@@ -91,6 +91,4 @@ const Dropdown = ({ closeSidebar }) => {
       </ul>
     </div>
   );
-};
-
-export default Dropdown;
+}
