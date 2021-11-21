@@ -14,8 +14,14 @@ const HeaderElement = ({ data }) => {
       setIsOpen(true);
     }
   };
+  const closeModal = () => {
+    console.log("Close request");
+    setIsOpen(false);
+  };
+  useEffect(() => {});
+
   return (
-    <>
+    <div onClick={isOpen ? closeModal : ""}>
       <HashLink to={`/#${id}`} smooth onClick={clickHandler}>
         <div className="header-icon-box">
           <img src={data.image} alt={data.name} />
@@ -23,13 +29,16 @@ const HeaderElement = ({ data }) => {
         </div>
       </HashLink>
       <ReactModal
-        onRequestClose={() => setIsOpen(false)}
+        onRequestClose={closeModal}
+        shouldCloseOnEsc={true}
         isOpen={isOpen}
         className="popUpRoot"
+        overlayClassName="popUpOverlay"
+        shouldCloseOnOverlayClick={true}
       >
-        <ComingSoon title={data.name} />
+        <ComingSoon title={data.name} onClick={closeModal} />
       </ReactModal>
-    </>
+    </div>
   );
 };
 

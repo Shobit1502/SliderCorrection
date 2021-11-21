@@ -25,7 +25,6 @@ export default function Navbar() {
           <div onClick={handleClick} className={"hamburger-icon"}>
             <Hamburger className={""} />
           </div>
-
           <img
             className={"navbar-logo"}
             src="assets/img/navbar/koyo-logo.png"

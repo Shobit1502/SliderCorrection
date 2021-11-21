@@ -1,5 +1,5 @@
 .navbar-container {
-  height: 60px;
+  /* height: 60px; */
   position: fixed;
   z-index: 100;
   background-color: rgba(0, 0, 0, 0.85);
@@ -11,6 +11,9 @@
   display: flex;
   justify-content: space-between;
   z-index: 100;
+}
+.navbar-container a:hover {
+  color: rgb(255, 196, 81);
 }
 .hamburger-icon {
   display: none;
@@ -31,6 +34,11 @@
   gap: 25px;
   font-size: 0.95rem;
   font-weight: 600;
+  height: fit-content;
+  transition: all 0.3s;
+}
+.navbar-links a:hover {
+  color: rgb(243, 193, 93);
 }
 .navbar-links-mobile {
   display: none;
@@ -99,6 +107,7 @@
   .navbar-links-mobile li {
     font-size: 0.95rem;
     font-weight: 600;
+    padding: 0.25rem 1.5rem;
   }
 
   .hamburger-icon {
