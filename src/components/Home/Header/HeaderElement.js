@@ -18,7 +18,6 @@ const HeaderElement = ({ data }) => {
     console.log("Close request");
     setIsOpen(false);
   };
-  useEffect(() => {});
 
   return (
     <div onClick={isOpen ? closeModal : ""}>
