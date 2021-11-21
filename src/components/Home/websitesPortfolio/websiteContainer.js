@@ -20,14 +20,29 @@ function WebsiteContainer(props) {
 
   let activeCategoryId = `${activeCategory}-webcards`;
 
-  useEffect(() => {
-    document.getElementById(activeCategoryId).style.display = "none";
-    setTimeout(function () {
-      document.getElementById(activeCategoryId).style.display = "flex";
-    }, 50);
-  }, [props.flip]);
+  // useEffect(() => {
+  //   document.getElementById(activeCategoryId).style.display = "none";
+  //   setTimeout(function () {
+  //     document.getElementById(activeCategoryId).style.display = "flex";
+  //   }, 50);
+  // }, [props.flip]);
 
   const [isMobile, setIsMobile] = useState(false);
+  // const evenWebsites = [];
+  // const oddWebsites = [];
+  // for (let i = 0; i < latestWebsites.length; i += 2) {
+  //   evenWebsites.push(latestWebsites[i]);
+  // }
+  // for(let i = 1; i < latestWebsites.length; i += 2) {
+  //   oddWebsites.push(latestWebsites[i])
+  // }
+  const websites = latestWebsites.reduce(function (rows, key, index) {
+    return (
+      (index % 2 === 0 ? rows.push([key]) : rows[rows.length - 1].push(key)) &&
+      rows
+    );
+  }, []);
+  console.log(websites);
 
   useEffect(() => {
     window.screen.width <= 1110 ? setIsMobile(true) : setIsMobile(false);
@@ -62,16 +77,25 @@ function WebsiteContainer(props) {
       return (
         <>
           <div>
-            <Carousel swipeable emulateTouch>
-              {latestWebsites.map((card) => (
-                <div className="carousel-drag">
+            <Carousel swipeable={true} showArrows={false}>
+              {websites.map((card) => (
+                <div className="carousel-drag d-flex flex-column">
                   <Websitecards
                     className="carousel-web-card"
-                    img={card.backgroundImgPath}
-                    link={card.websiteLink}
-                    about={card.aboutWebsite}
-                    tech={card.technologies}
-                    host={card.hosting}
+                    img={card[0].backgroundImgPath}
+                    link={card[0].websiteLink}
+                    about={card[0].aboutWebsite}
+                    tech={card[0].technologies}
+                    host={card[0].hosting}
+                    flip={props.flip}
+                  />
+                  <Websitecards
+                    className="carousel-web-card"
+                    img={card[1].backgroundImgPath}
+                    link={card[1].websiteLink}
+                    about={card[1].aboutWebsite}
+                    tech={card[1].technologies}
+                    host={card[1].hosting}
                     flip={props.flip}
                   />
                 </div>
