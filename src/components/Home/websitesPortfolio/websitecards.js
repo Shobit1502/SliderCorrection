@@ -11,17 +11,21 @@ function Websitecards(props) {
 
   useEffect(() => {
     setIsFlipped(false);
-  }, [props.flip]);
+  }, [props.flip, props.categoryChanged]);
 
   return (
     <ReactCardFlip isFlipped={isFlipped} id="react-flip-card">
       <div
-        className="flipcard-front flipcard"
+        className="flipcard-front flipcard position-relative"
         style={{
-          backgroundImage: `url('${props.img}')`,
-          backgroundRepeat: "no-repeat",
+          backgroundImage: props.isMobile ? "" : `url('${props.img}')`,
+          backgroundRepeat: props.isMobile ? "" : "no-repeat",
+          aspectRatio: props.isMobile ? "" : "100 / 51",
         }}
       >
+        {props.isMobile && (
+          <img src={props.img} className="img-fluid position-fixed" alt="" />
+        )}
         <a
           href={props.link}
           rel="noopener noreferrer"
