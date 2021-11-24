@@ -6,6 +6,7 @@ import WebsitesPortfolio from "components/Home/websitesPortfolio/websitesPortfol
 import GraphicsPortfolio from "components/Home/GraphicsPortfolio/GraphicsPortfolio";
 import Jobs from "./Jobs/Jobs";
 import Contact from "components/Home/Contact/Contact";
+import About from "./About/About";
 
 export default function Home() {
   // ref to each section, for auto scrolling of hash links eg- /#header
@@ -56,6 +57,7 @@ export default function Home() {
       <WebsitesPortfolio refProp={websitesRef} />
       <GraphicsPortfolio refProp={graphicsRef} />
       <Jobs />
+      <About />
       <Contact refProp={contactRef} />
     </>
   );
