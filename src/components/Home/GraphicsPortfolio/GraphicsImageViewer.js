@@ -16,10 +16,11 @@ export default function ({ closeImageViewer, imageViewDetails }) {
         <div className="graphics-detail-container">
           <div onClick={handleClick} className="close-image-viewer">
             <img
-              src="https://i.ibb.co/rbKbzzn/close.png"
-              width="30px"
-              height="30px"
+              src="/assets/img/misc/close.png"
+              // width="30px"
+              // height="30px"
               alt="close"
+              className="closee"
             />
           </div>
           <img
@@ -40,10 +41,11 @@ export default function ({ closeImageViewer, imageViewDetails }) {
               target={"_blank"}
             >
               <img
-                src="https://i.ibb.co/JcW8B7M/whatsapp.png"
+                src="/assets/img/misc/share_whatsapp.png"
                 alt="whatsapp"
-                height="25px"
-                width="25px"
+                // height="25px"
+                // width="25px"
+                className="graphicsocial"
               />
             </a>
             <a
@@ -51,10 +53,11 @@ export default function ({ closeImageViewer, imageViewDetails }) {
               target={"_blank"}
             >
               <img
-                src="https://i.ibb.co/Th2Yc6M/telegram.png"
+                src="/assets/img/misc/share_telegram.png"
                 alt="telegram"
-                height="25px"
-                width="25px"
+                // height="25px"
+                // width="25px"
+                className="graphicsocial"
               />
             </a>
           </div>
