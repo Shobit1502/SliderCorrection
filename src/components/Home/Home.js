@@ -7,6 +7,7 @@ import GraphicsPortfolio from "components/Home/GraphicsPortfolio/GraphicsPortfol
 import Jobs from "./Jobs/Jobs";
 import Contact from "components/Home/Contact/Contact";
 import About from "./About/About";
+import ServiceSummary from "./ServiceSummary/ServiceSummary";
 
 export default function Home() {
   // ref to each section, for auto scrolling of hash links eg- /#header
@@ -54,6 +55,7 @@ export default function Home() {
   return (
     <>
       <Header refProp={headerRef} />
+      <ServiceSummary />
       <WebsitesPortfolio refProp={websitesRef} />
       <GraphicsPortfolio refProp={graphicsRef} />
       <Jobs />
