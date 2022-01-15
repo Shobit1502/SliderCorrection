@@ -58,23 +58,7 @@
   cursor: pointer;
 }
 
-.sign-in-button {
-  background-color: transparent;
-  border: 2px solid rgb(243, 193, 93);
-  color: white;
-  height: 40px;
-  width: 100px;
-  cursor: pointer;
-  font-weight: thin;
-  font-size: 0.95rem;
-  border-radius: 20px;
-  transition: all 0.3s ease-in-out;
-}
 
-.sign-in-button:hover {
-  background: #f3c15d;
-  color: #343a40;
-}
 
 @media only screen and (max-width: 900px) {
   .navbar-links {

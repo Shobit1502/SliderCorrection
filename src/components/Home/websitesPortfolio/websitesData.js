@@ -2,7 +2,7 @@ export const latestWebsites = [
   {
     id: "1",
     backgroundImgPath: `/assets/img/websites-portfolio/latest/AccountantABNCA-600.jpg`,
-    websiteLink: "https://koyoaccountassistant.web.app/",
+    websiteLink: " https://www.abnca.in/ ",
     aboutWebsite:
       "desiFirangi is a modern, dark theme, multilingual food truck website that looks great both on phone and mobile devices. With prominently displayed and apropriately placed call-to-action buttons is designed also help be used by cloud kitchens that wish to manage their bottomlines via direct access to clients as opposed to routing their entire traffic via expensive food delivery platforms.",
     technologies: "MERN, BootStrap, JS, CSS, AWS Lambda",
@@ -32,7 +32,7 @@ export const latestWebsites = [
     backgroundImgPath:
       "/assets/img/websites-portfolio/latest/eCommerceHimalayanHealthFoods-600.jpg",
     websiteLink:
-      "https://grocery-website-tts.web.app/eCommerceHimalayanHealthFoods-600.jpg",
+      "https://grocery-website-tts.web.app/",
     aboutWebsite:
       "desiFirangi is a modern, dark theme, multilingual food truck website that looks great both on phone and mobile devices. With prominently displayed and apropriately placed call-to-action buttons is designed also help be used by cloud kitchens that wish to manage their bottomlines via direct access to clients as opposed to routing their entire traffic via expensive food delivery platforms.",
     technologies: "MERN, BootStrap, JS, CSS, AWS Lambda",
@@ -55,7 +55,7 @@ export const restaurantWebsites = [
     id: "",
     backgroundImgPath:
       "/assets/img/websites-portfolio/restaurant/desiFirangiFood-600.jpg",
-    websiteLink: "https://desifirangifoods.web.app",
+    websiteLink: "https://foodtemplate-kss.web.app/",
     aboutWebsite:
       "desiFirangi is a modern, dark theme, multilingual food truck website that looks great both on phone and mobile devices. With prominently displayed and apropriately placed call-to-action buttons is designed also help be used by cloud kitchens that wish to manage their bottomlines via direct access to clients as opposed to routing their entire traffic via expensive food delivery platforms.",
     technologies: "MERN, BootStrap, JS, CSS, AWS Lambda",
@@ -109,7 +109,7 @@ export const NGOWebsites = [
   {
     id: "",
     backgroundImgPath: "/assets/img/websites-portfolio/NGO/AnimalNGO-600.jpg",
-    websiteLink: "https://samskrithi-goshala.web.app/",
+    websiteLink: " https://animal-ngo.web.app/",
     aboutWebsite:
       "desiFirangi is a modern, dark theme, multilingual food truck website that looks great both on phone and mobile devices. With prominently displayed and apropriately placed call-to-action buttons is designed also help be used by cloud kitchens that wish to manage their bottomlines via direct access to clients as opposed to routing their entire traffic via expensive food delivery platforms.",
     technologies: "MERN, BootStrap, JS, CSS, AWS Lambda",
@@ -142,7 +142,7 @@ export const ecommerceWebsites = [
     id: "",
     backgroundImgPath:
       "/assets/img/websites-portfolio/e-commerce/AnimalNGO-600.jpg",
-    websiteLink: "https://samskrithi-goshala.web.app",
+    websiteLink: " https://animal-ngo.web.app",
     aboutWebsite:
       "desiFirangi is a modern, dark theme, multilingual food truck website that looks great both on phone and mobile devices. With prominently displayed and apropriately placed call-to-action buttons is designed also help be used by cloud kitchens that wish to manage their bottomlines via direct access to clients as opposed to routing their entire traffic via expensive food delivery platforms.",
     technologies: "MERN, BootStrap, JS, CSS, AWS Lambda",
@@ -187,7 +187,7 @@ export const professionalWebsites = [
     id: "",
     backgroundImgPath:
       "/assets/img/websites-portfolio/professional/AccountantABNCA-600.jpg",
-    websiteLink: "https://koyoaccountassistant.web.app/",
+    websiteLink: " https://www.abnca.in/ ",
     aboutWebsite:
       "desiFirangi is a modern, dark theme, multilingual food truck website that looks great both on phone and mobile devices. With prominently displayed and apropriately placed call-to-action buttons is designed also help be used by cloud kitchens that wish to manage their bottomlines via direct access to clients as opposed to routing their entire traffic via expensive food delivery platforms.",
     technologies: "MERN, BootStrap, JS, CSS, AWS Lambda",

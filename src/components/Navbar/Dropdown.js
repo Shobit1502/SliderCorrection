@@ -117,14 +117,28 @@
 
 import React, { useState } from "react";
 import { HashLink } from "react-router-hash-link";
+import ReactModal from "react-modal";
+import ComingSoon from '../Home/Header/ComingSoon'
 import "./Dropdown.css";
 function Dropdown(props) {
   const [toggleActive, setToggleActive] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+  const [title,setTitle ]=useState('')
   const setActive = () => {
     setToggleActive(true);
   };
   const setInActive = () => {
     setToggleActive(false);
+  };
+  const clickHandler = (id) => {
+    // if (id == null) {
+      setIsOpen(true);
+      setTitle(id)
+    // }
+  };
+  const closeModal = () => {
+    console.log("Close request");
+    setIsOpen(false);
   };
   return (
     <div className="nav-services-dropdown">
@@ -148,6 +162,7 @@ function Dropdown(props) {
             <HashLink
               onClick={() => {
                 props.closeSidebar();
+
               }}
               smooth
               to="/#ourwebsites"
@@ -155,26 +170,17 @@ function Dropdown(props) {
               Web Design
             </HashLink>
           </li>
+        
           <li>
             <HashLink
               onClick={() => {
                 props.closeSidebar();
+                clickHandler("eCommerce")
               }}
               smooth
               to="/#"
             >
-              AI & ML
-            </HashLink>
-          </li>
-          <li>
-            <HashLink
-              onClick={() => {
-                props.closeSidebar();
-              }}
-              smooth
-              to="/#"
-            >
-              Code & Learn
+             eCommerce
             </HashLink>
           </li>
           <li>
@@ -188,8 +194,30 @@ function Dropdown(props) {
               Branding Solutions
             </HashLink>
           </li>
+          <li>
+            <HashLink
+              onClick={() => {
+                props.closeSidebar();
+                clickHandler("AI & ML")
+              }}
+              smooth
+              to="/#"
+            >
+              AI & ML
+            </HashLink>
+          </li>
         </ul>
       </div>
+      <ReactModal
+        onRequestClose={closeModal}
+        shouldCloseOnEsc={true}
+        isOpen={isOpen}
+        className="popUpRoot"
+        overlayClassName="popUpOverlay"
+        shouldCloseOnOverlayClick={true}
+      >
+        <ComingSoon title={title} onClick={closeModal} />
+      </ReactModal>
     </div>
   );
 }

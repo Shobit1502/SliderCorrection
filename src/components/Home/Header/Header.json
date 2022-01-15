@@ -7,13 +7,9 @@
       "image": "assets/img/header/web-design.svg",
       "id": "ourwebsites"
     },
+    
     {
-      "name": "AI & ML",
-      "image": "assets/img/header/ai&ml.svg",
-      "id": null
-    },
-    {
-      "name": "Code & Learn",
+      "name": "eCommerce",
       "image": "assets/img/header/code&learn.svg",
       "id": null
     },
@@ -21,6 +17,12 @@
       "name": "Branding Solutions",
       "image": "assets/img/header/branding-solutions.svg",
       "id": "graphicsportfolio"
+    },
+
+    {
+      "name": "AI & ML",
+      "image": "assets/img/header/ai&ml.svg",
+      "id": null
     }
   ]
 }

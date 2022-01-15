@@ -66,8 +66,6 @@ export default function Navbar() {
           >
             <Email className={"navbar-icon"} />
           </a>
-
-          <button className="sign-in-button">Sign in</button>
         </div>
       </div>
 
