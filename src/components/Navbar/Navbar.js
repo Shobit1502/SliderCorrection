@@ -55,14 +55,14 @@ export default function Navbar() {
         </div>
 
         <div className={"navbar-controls"}>
-          <a target={"_blank"} href="https://wa.me/919867910690">
+          <a target={"_blank"} href="https://wa.me/919867910690" rel="noopener noreferrer">
             <WhatsApp className={"navbar-icon"} />
           </a>
 
           <a
             target={"_blank"}
             href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=KoyoSoftwareSolutions@gmail.com#"
-            rel="noreferrer"
+            rel="noreferrer noopener"
           >
             <Email className={"navbar-icon"} />
           </a>

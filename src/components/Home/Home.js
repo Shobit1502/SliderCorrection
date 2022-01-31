@@ -1,6 +1,7 @@
 import { useRef, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
+
 import Header from "components/Home/Header/Header";
 import WebsitesPortfolio from "components/Home/websitesPortfolio/websitesPortfolio";
 import GraphicsPortfolio from "components/Home/GraphicsPortfolio/GraphicsPortfolio";
@@ -19,38 +20,38 @@ export default function Home() {
   // to get queries for retaining exact state eg- /?id=1#sec1 ==> id one of sec1 state
   const { search, hash } = useLocation();
 
-  useEffect(() => {
-    // auto scrolling by hash links eg /#hello => scrolls to id='hello' section
-    switch (hash) {
-      case "#home":
-        headerRef.current.scrollIntoView({
-          behavior: "smooth",
-          block: "start",
-        });
-        break;
-      case "#websitesportfolio":
-        websitesRef.current.scrollIntoView({
-          behavior: "smooth",
-          block: "start",
-        });
-        break;
-      case "#graphicsportfolio":
-        graphicsRef.current.scrollIntoView({
-          behavior: "smooth",
-          block: "start",
-        });
-        break;
-      case "#contact":
-        contactRef.current.scrollIntoView({
-          behavior: "smooth",
-          block: "start",
-        });
-        break;
-      default:
-        console.log("default section");
-        break;
-    }
-  });
+  // useEffect(() => {
+  //   // auto scrolling by hash links eg /#hello => scrolls to id='hello' section
+  //   switch (hash) {
+  //     case "#home":
+  //       headerRef.current.scrollIntoView({
+  //         behavior: "smooth",
+  //         block: "start",
+  //       });
+  //       break;
+  //     case "#websitesportfolio":
+  //       websitesRef.current.scrollIntoView({
+  //         behavior: "smooth",
+  //         block: "start",
+  //       });
+  //       break;
+  //     case "#graphicsportfolio":
+  //       graphicsRef.current.scrollIntoView({
+  //         behavior: "smooth",
+  //         block: "start",
+  //       });
+  //       break;
+  //     case "#contact":
+  //       contactRef.current.scrollIntoView({
+  //         behavior: "smooth",
+  //         block: "start",
+  //       });
+  //       break;
+  //     default:
+  //       console.log("default section");
+  //       break;
+  //   }
+  // });
 
   return (
     <>
@@ -65,14 +66,14 @@ export default function Home() {
   );
 }
 
-/* 
+/*
 
 Why am I using switch case with ref to each section?
 => This is for auto scrolling.
   Consider a scenerio where I shared a link like "https://koyo.com/#portfolio"
   Have you noticed #portfolio ?
   I want my web page to go to that particular section with id = 'portfolio'
-  So, since I have reference to all the sections. 
+  So, since I have reference to all the sections.
   Now I can get the hash part with useLocation()
   and achieve the required effect by scrolling to the required section reference.
   Please make sure to do the same for other upcoming sections.

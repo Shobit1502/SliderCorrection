@@ -69,7 +69,7 @@ function Websitecards(props) {
             <a
               className="contact-link"
               href=" https://api.whatsapp.com/send/?phone=+91 98679 10690&text&app_absent=0"
-              target="_blank"
+              target="_blank" rel="noopener noreferrer"
             >
               <img
                 className="contactpic"
@@ -81,6 +81,7 @@ function Websitecards(props) {
               className="contact-link"
               href=" https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=KoyoSoftwareSolutions@gmail.com#"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <img
                 className="contactpic"
@@ -92,6 +93,7 @@ function Websitecards(props) {
               className="contact-link"
               href="tel:+919867910690"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <img
                 className="contactpic"

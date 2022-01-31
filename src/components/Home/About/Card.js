@@ -13,7 +13,7 @@ export default function Card(props) {
             href={props?.emailLink}
             className="card-link"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             <i class="icofont-envelope"></i>
           </a>

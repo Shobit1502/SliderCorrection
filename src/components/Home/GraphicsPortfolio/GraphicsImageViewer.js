@@ -39,6 +39,7 @@ export default function ({ closeImageViewer, imageViewDetails }) {
               href={"whatsapp://send?text=" + imageViewDetails.sharingLink}
               data-action="share/whatsapp/share"
               target={"_blank"}
+              rel="noopener noreferrer"
             >
               <img
                 src="/assets/img/misc/share_whatsapp.png"
@@ -51,6 +52,7 @@ export default function ({ closeImageViewer, imageViewDetails }) {
             <a
               href={`https://t.me/share/url?url=${imageViewDetails.sharingLink}`}
               target={"_blank"}
+              rel="noopener noreferrer"
             >
               <img
                 src="/assets/img/misc/share_telegram.png"

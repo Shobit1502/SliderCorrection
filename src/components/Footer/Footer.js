@@ -20,11 +20,12 @@ export default function () {
       <div className="footer-contact-links">
         <div className="footer-social-links">
           <span>Follow Us</span>
-          <a target={"_blank"} href="https://www.facebook.com/KoyoSoft/">
+          <a target={"_blank"} href="https://www.facebook.com/KoyoSoft/" rel="noopener noreferrer">
             <FaFacebookF className={"footer-icons"} />
           </a>
           <a
             target={"_blank"}
+            rel="noopener noreferrer"
             href="https://www.linkedin.com/company/koyo-soft/"
           >
             <FaLinkedinIn className={"footer-icons"} />
@@ -33,18 +34,18 @@ export default function () {
 
         <div className="footer-contacts-options">
           <span>Contact Us</span>
-          <a target={"_blank"} href="tel:+919867910690">
+          <a target={"_blank"} href="tel:+919867910690" rel="noopener noreferrer">
             <FaPhoneAlt className={"footer-icons"} />
           </a>
-          <a target={"_blank"} href="https://t.me/MAKE605">
+          <a target={"_blank"} href="https://t.me/MAKE605" rel="noopener noreferrer">
             <FaTelegramPlane className={"footer-icons"} />
           </a>
-          <a target={"_blank"} href="https://wa.me/919867910690">
+          <a target={"_blank"} href="https://wa.me/919867910690" rel="noopener noreferrer">
             <FaWhatsapp className={"footer-icons"} />
           </a>
           <a
             target={"_blank"}
-            href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=KoyoSoftwareSolutions@gmail.com#"
+            href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=KoyoSoftwareSolutions@gmail.com#" rel="noopener noreferrer"
           >
             {" "}
             <MdEmail className={"footer-icons"} />
