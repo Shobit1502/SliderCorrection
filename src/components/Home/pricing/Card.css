@@ -1,0 +1,21 @@
+.card{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  padding-top: 2%;
+  padding-bottom:2%;
+  border: 1px solid #000;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.card:nth-child(n+2){
+  border-left: none;
+}
+.benefits{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.card_button{
+  margin-top: 5px;
+}

@@ -1,4 +1,4 @@
-import { useRef, useEffect } from "react";
+import { useRef, useEffect,useState } from "react";
 import { useLocation } from "react-router-dom";
 
 
@@ -9,8 +9,20 @@ import Jobs from "./Jobs/Jobs";
 import Contact from "components/Home/Contact/Contact";
 import About from "./About/About";
 import ServiceSummary from "./ServiceSummary/ServiceSummary";
+import Pricing from "./pricing/Pricing"
+import PricingD from "./pricing/PricingD"
 
 export default function Home() {
+  const [size, setSize] = useState({
+    x: window.innerWidth,
+    y: window.innerHeight,
+  });
+  const updateSize = () =>
+    setSize({
+      x: window.innerWidth,
+      y: window.innerHeight,
+    });
+  useEffect(() => (window.onresize = updateSize), []);
   // ref to each section, for auto scrolling of hash links eg- /#header
   const headerRef = useRef(null);
   const websitesRef = useRef(null);
@@ -20,39 +32,6 @@ export default function Home() {
   // to get queries for retaining exact state eg- /?id=1#sec1 ==> id one of sec1 state
   const { search, hash } = useLocation();
 
-  // useEffect(() => {
-  //   // auto scrolling by hash links eg /#hello => scrolls to id='hello' section
-  //   switch (hash) {
-  //     case "#home":
-  //       headerRef.current.scrollIntoView({
-  //         behavior: "smooth",
-  //         block: "start",
-  //       });
-  //       break;
-  //     case "#websitesportfolio":
-  //       websitesRef.current.scrollIntoView({
-  //         behavior: "smooth",
-  //         block: "start",
-  //       });
-  //       break;
-  //     case "#graphicsportfolio":
-  //       graphicsRef.current.scrollIntoView({
-  //         behavior: "smooth",
-  //         block: "start",
-  //       });
-  //       break;
-  //     case "#contact":
-  //       contactRef.current.scrollIntoView({
-  //         behavior: "smooth",
-  //         block: "start",
-  //       });
-  //       break;
-  //     default:
-  //       console.log("default section");
-  //       break;
-  //   }
-  // });
-
   return (
     <>
       <Header refProp={headerRef} />
@@ -60,6 +39,7 @@ export default function Home() {
       <WebsitesPortfolio refProp={websitesRef} />
       <GraphicsPortfolio refProp={graphicsRef} />
       <Jobs />
+     <PricingD />
       <About />
       <Contact refProp={contactRef} />
     </>

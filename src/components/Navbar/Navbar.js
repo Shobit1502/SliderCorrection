@@ -51,6 +51,11 @@ export default function Navbar() {
                 Contact
               </HashLink>
             </li>
+            <li>
+              <HashLink smooth to="/#Pricing">
+                Pricing
+              </HashLink>
+            </li>
           </ul>
         </div>
 

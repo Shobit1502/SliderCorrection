@@ -1,0 +1,24 @@
+.pricing_section{
+  position: relative;
+  display: grid;
+  justify-items: center;
+  width: 80%;
+  margin:auto;
+  height: 100%;
+  padding: 55px 0;
+}
+.pricing_section_cards{
+  display: flex;
+  position: relative;
+  flex-direction: row;
+
+  background-color: grey;
+  overflow-y: hidden;
+  white-space: nowrap;
+  width: 100%;
+  
+
+  align-items: center;
+  justify-content: flex-start;
+  overflow-x: scroll;
+}

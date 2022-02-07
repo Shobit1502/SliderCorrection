@@ -1,6 +1,5 @@
 import React from "react";
 import Jobdata from "./JobsData";
-import Job from "./Job";
 import Modal from "react-modal";
 import ReactMarkdown from "react-markdown";
 import "./Jobs.css";
